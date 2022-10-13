@@ -1,779 +1,473 @@
 <!DOCTYPE html>
-<!--[if lt IE 9 ]><html class="no-js oldie" lang="en"> <![endif]-->
-<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!-->
-<html class="no-js" lang="en">
-<!--<![endif]-->
+<html lang="en">
 
 <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eren Geridonmez Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        #header {
+            -webkit-animation: mover 2s infinite alternate;
+            animation: mover 2s infinite alternate;
+        }
 
-    <!--- basic page needs
-    ================================================== -->
-    <meta charset="utf-8">
-    <title>Eren Geridonmez</title>
-    <meta name="description" content="Eren Geridonmez CV">
-    <meta name="author" content="Eren Geridonmez">
+        @-webkit-keyframes mover {
+            0% {
+                transform: translateY(0);
+            }
 
-    <!-- mobile specific metas
-    ================================================== -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+            100% {
+                transform: translateY(-20px);
+            }
+        }
 
-    <!-- CSS
-    ================================================== -->
-    <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/vendor.css">
-    <link rel="stylesheet" href="css/main.css">
+        @keyframes mover {
+            0% {
+                transform: translateY(0);
+            }
 
-    <!-- script
-    ================================================== -->
-    <script src="js/modernizr.js"></script>
-    <script src="js/pace.min.js"></script>
+            100% {
+                transform: translateY(-20px);
+            }
+        }
 
-    <!-- favicons
-    ================================================== -->
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
+        .fa {
+            padding: 20px;
+            font-size: 30px;
+            width: 40px;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 50%;
+        }
 
-	
+        /* Add a hover effect if you want */
+        .fa:hover {
+            opacity: 0.7;
+        }
+
+        /* Set a specific color for each brand */
+
+        /* Facebook */
+        .fa-facebook {
+            background: #3B5998;
+            color: white;
+        }
+
+        /* Twitter */
+        .fa-twitter {
+            background: #55ACEE;
+            color: white;
+        }
+    </style>
+
 </head>
 
-<body id="top">
-
-    <!-- header
-    ================================================== -->
-    <header class="s-header">
-
-        <div class="header-logo" style="font-size:20px;margin:auto;">
-            <a class="site-logo" href="index.html"><p style="color:#fff;margin:auto;font-family:montserrat-regular;">Eren Geridonmez</p></a>
-        </div>
-
-        <nav class="header-nav-wrap">
-            <ul class="header-nav">
-                <li class="current"><a class="smoothscroll"  href="#home" title="home">Home</a></li>
-                <li><a class="smoothscroll"  href="#about" title="about">About</a></li>
-                <li><a class="smoothscroll"  href="#portfolio" title="portfolio">Portfolio</a></li>
-                <li><a class="smoothscroll"  href="#contact" title="contact">Contact</a></li>
+<body>
+    <div class="container">
+        <header class="d-flex justify-content-center py-3">
+            <ul class="nav nav-pills">
+                <li class="nav-item"><a href="#projects" class="nav-link" aria-current="page">Projects</a></li>
+                <li class="nav-item"><a href="#work-experience" class="nav-link">Work Experience</a></li>
             </ul>
-        </nav>
+        </header>
+    </div>
 
-        <a class="header-menu-toggle" href="#0"><span>Menu</span></a>
-
-    </header> <!-- end s-header -->
-
-
-   <!-- home
-   ================================================== -->
-   <section id="home" class="s-home page-hero target-section" data-parallax="scroll" data-image-src="images/hero-bg.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=center>
-
-        <div class="overlay"></div>
-        <div class="shadow-overlay"></div>
-
-        <div class="home-content">
-
-            <div class="row home-content__main">
-
-                <h3>Hello There</h3>
-
-                <h1>
-                    I am Eren Geridonmez. <br>
-                    I aspire to become a software engineer.
-                </h1>
-
-                <div class="home-content__buttons">
-                    <a href="#portfolio" class="smoothscroll btn btn--stroke">
-                        Latest Projects
-                    </a>
-                    <a href="#about" class="smoothscroll btn btn--stroke">
-                        More About Me
-                    </a>
-                </div>
-
-                <div class="home-content__scroll">
-                    <a href="#about" class="scroll-link smoothscroll">
-                        <span>Scroll Down</span>
-                    </a>
-                </div>
-
-            </div>
-
-        </div> <!-- end home-content -->
-
-        <ul class="home-social">
-            <li>
-                <a href="https://linkedin.com/in/erengeridonmez" target="_blank"><i class="im im-linkedin" aria-hidden="true"></i><span>Linkedin</span></a>
-            </li>
-			<li>
-                <a href="https://github.com/CoderEren" target="_blank"><i class="im im-github" aria-hidden="true"></i><span>GitHub</span></a>
-            </li>
-			<li>
-                <a href="https://twitter.com/CoderEren" target="_blank"><i class="im im-twitter" aria-hidden="true"></i><span>Twitter</span></a>
-            </li>
-            <li>
-                <a href="https://instagram.com/erengeridonmez" target="_blank"><i class="im im-instagram" aria-hidden="true"></i><span>Instagram</span></a>
-            </li>
-        </ul> 
-        <!-- end home-social -->
-
-    </section> <!-- end s-home -->
-
-
-    <!-- about
-    ================================================== -->
-    <section id="about" class="s-about target-section">
-        
-        <div class="row narrow section-intro has-bottom-sep">
-            <div class="col-full text-center">
-                <h1>About Me</h1>
-                <p class="lead">I'm aspiring to become a software engineer. I have started coding when I was 10 years old. Since then, I always had an interest in developing software in order to solve problems.</p>
+    <div class="px-4 py-5 my-5 text-center">
+        <img class="d-block mx-auto mb-4" src="images/programmer.svg" id="header" alt=""
+            style="width:100%;max-width:300px;">
+        <h1 class="display-5 fw-bold">Hi, I'm Eren Geridonmez</h1>
+        <div class="col-lg-6 mx-auto">
+            <p class="lead mb-4">Aspiring to become a software engineer and work on impactful projects that solve
+                people's problems, I'm currently a Year 13 student in a World Class School studying Maths, Further
+                Maths, Computer Science and Physics.</p>
+            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                <a href="#projects"><button type="button" class="btn btn-primary btn-lg px-4 gap-3">Explore
+                        Projects</button></a>
             </div>
         </div>
-
-        <div class="row about-content">
-
-            <div class="col-six tab-full left">
-			
-				<h3>Languages I Speak.</h3>
-
-                <ul class="skill-bars">
-                    <li>
-                    <div class="progress percent100"><span>100%</span></div>
-                    <strong>English</strong>
-                    </li>
-                    <li>
-                    <div class="progress percent100"><span>100%</span></div>
-                    <strong>Turkish</strong>
-                    </li>
-                    <li>
-                    <div class="progress percent70"><span>70%</span></div>
-                    <strong>Spanish</strong>
-                    </li>
-                </ul>
-			
-				<!--
-                <h3>Howdy!</h3>
-
-                <p>Lorem ipsum Ut eiusmod ex magna sit dolor esse adipisicing minim ad cupidatat eu veniam nostrud mollit laboris sunt magna velit culpa consectetur nostrud consectetur labore sed do.</p>
-
-                <p>
-                Lorem ipsum Nisi officia Duis irure voluptate dolor commodo pariatur occaecat aliquip adipisicing voluptate Ut in qui ea sint occaecat in commodo in in in incididunt ut sunt in Ut Duis in ut ex qui anim cupidatat cupidatat ex in non dolore labore ea amet cillum ea qui dolor nisi sed velit mollit exercitation ex fugiat labore in deserunt culpa laborum culpa anim dolore laboris amet irure mollit proident velit fugiat aute ea elit magna consequat qui officia quis elit Duis dolor esse cupidatat tempor proident voluptate aliqua ex cupidatat do eiusmod veniam irure laborum ut magna nostrud dolore ullamco commodo elit sit magna aliqua laborum veniam officia dolor.	
-                </p>
-				-->
-            </div>
-
-            <div class="col-six tab-full right">
-                <h3>My Skills.</h3>
-
-                <ul class="skill-bars">
-                    <li>
-                    <div class="progress percent90"><span>90%</span></div>
-                    <strong>Python</strong>
-                    </li>
-                    <li>
-                    <div class="progress percent70"><span>70%</span></div>
-                    <strong>HTML, CSS, JavaScript</strong>
-                    </li>
-                    <li>
-                    <div class="progress percent70"><span>70%</span></div>
-                    <strong>PHP</strong>
-                    </li>
-                    <li>
-                    <div class="progress percent80"><span>80%</span></div>
-                    <strong>Arduino</strong>
-                    </li>
-                    <li>
-                    <div class="progress percent75"><span>75%</span></div>
-                    <strong>Electronics</strong>
-                    </li> 
-                </ul>
-            </div>
-
-        </div> <!-- end about-content -->
-
-        <div class="row about-content about-content--buttons">
-<!--
-            <div class="col-six tab-full left">
-                <a target="_blank" href="eren-geridonmez-cv.pdf" class="btn btn--primary full-width">Download My CV</a>
-            </div>-->
-            <div class="col-twelve tab-full right">
-                <a href="#contact" class="btn full-width">Contact Me</a>
-            </div>
-
-        </div> <!-- end about-content buttons -->
-
-
-		
-        <div class="row about-content about-content--timeline">
-
-            <div class="col-full text-center">
-                <h3>My Work Experience.</h3>
-            </div>
-
-            <div class="col-six tab-full left">
-                <div class="timeline">
-
-                    <div class="timeline__block">
-                        <div class="timeline__bullet"></div>
-                        <div class="timeline__header">
-                            <p class="timeline__timeframe">June 2021 - Virtual Work Experience</p>
-                            <a target="_blank" href="https://insidesherpa.s3.amazonaws.com/completion-certificates/Goldman%20Sachs/NPdeQ43o8P9HJmJzg_Goldman%20Sachs_mLKSv9NTuxrgk5bnp_1624541064972_completion_certificate.pdf"><h3>Goldman Sachs</h3></a>
-                            <h5>Engineer</h5>
-                        </div>
-                        <div class="timeline__desc">
-                            <p>I have completed practical task modules in cracking leaked passwords database. I have successfully identified the specific hashing algorithms and decrypted the leaked passwords. I also suggested ways to secure the database so passwords are more protected.</p>
-                        </div>
-                    </div> 
-
-                    <div class="timeline__block">
-                        <div class="timeline__bullet"></div>
-                        <div class="timeline__header">
-                            <p class="timeline__timeframe">August 2021 - Virtual Work Experience</p>
-                            <a href="https://insidesherpa.s3.amazonaws.com/completion-certificates/Accenture%20Nordics/PxenP4rHNE6Bh4nQz_Accenture%20Nordic_mLKSv9NTuxrgk5bnp_1630073534039_completion_certificate.pdf" target="_blank"><h3>Accenture</h3></a>
-                            <h5>Software Developer</h5>
-                        </div>
-                        <div class="timeline__desc">	
-                            <p>I have completed practical task modules in several aspects of the software development lifecycle including debugging, unit testing, user acceptance testing, data and privacy and more.</p>
-                        </div>
-                    </div> 
-
-                </div> 
-            </div> 
-
-            <div class="col-six tab-full right">
-                <div class="timeline">
-
-                    <div class="timeline__block">
-                        <div class="timeline__bullet"></div>
-                        <div class="timeline__header">
-                            <p class="timeline__timeframe">April 2021 - Virtual Work Experience</p>
-                            <h3>Springpod</h3>
-                            <h5>Technology and Engineering</h5>
-                        </div>
-                        <div class="timeline__desc">
-                            <p>I took part in Springpod’s Technology and Engineering Virtual Work Experience programmes. During the programme I gained:
-<ul>
-<li>A sound understanding of the inner-workings and concepts related to technology, and the ability to identify the skills needed to pursue a career in this sector.</li>
-<li>The ability to successfully apply knowledge of the technology sector by completing quizzes, interactive exercises and activities.</li>
-<li>Meaningful interaction with industry professionals through live webinars.</li>
-<li>A better understanding of the career pathways within technology.</li>
-<li>Knowledge of key employability and transferable skills, as well as a sound awareness of employer expectations.</li>
-</ul></p>
-                        </div>
-                    </div> 
-
-                </div> 
-            </div> 
-
-        </div> 
-
-    </section> <!-- end about -->
-    
-
-    <!-- works
-    ================================================== -->
-    <section id="portfolio" class="s-works target-section">
-
-        <div class="row narrow section-intro has-bottom-sep">
-            <div class="col-full">
-                <h3>Portfolio</h3>
-                <h1>See My Latest Projects.</h1>
-                
-                <p class="lead">I started programming with HTML, CSS and JavaScript to develop websites. I also learned PHP to add functionalities and database integration to my website projects. Then, I learned electronics and Arduino programming to develop robotics projects. I also learned Python to develop artificial intelligence and other automation projects.</p>
-            </div>
-        </div>
-		
-		
-		<section class="blog-content-wrap s-works">
-
-        <div class="row blog-content">
-            <div class="col-full">
-
-                <div class="blog-list block-1-2 block-tab-full">
-
-                    <article class="col-block">
-					
-						<img src="https://raw.githubusercontent.com/CoderEren/eCommerceMarketplace/main/fullcashback.png" alt="...">
-                        
-                        <h2 class="h01"><a href="https://github.com/CoderEren/eCommerceMarketplace/">eCommerce Marketplace</a></h2>
-                        <p>
-                        This is an eCommerce marketplace platform with multiple sellers and buyers.
-
-The project is made with HTML, CSS, JavaScript, PHP and MySQL database. I used PHPMyAdmin to control the database and I used Bootstrap CSS framework.</p>
-
-                        <a href="https://github.com/CoderEren/eCommerceMarketplace/" class="btn btn-primary">View Project</a>
-
-                    </article>
-
-                    <article class="col-block">
-					
-						<img src="https://i.ytimg.com/vi/IRKWOKpNJYQ/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDVeSOSKAeH-HDEApfsR3Q0PL-dwQ" alt="...">
-                        
-                        <h2 class="h01"><a href="https://github.com/CoderEren/rc-robot-car/">RC Robot Car</a></h2>
-                        <p>
-                        Remote controlled robot car using an Arduino, 2 motors, infrared remote control, ultrasonic sensor and L298N motor driver to control the motors.</p>
-
-                        <a href="https://github.com/CoderEren/rc-robot-car/" class="btn btn-primary">View Project</a>
-
-                    </article>
-					
-					<article class="col-block">
-					
-						<img src="https://i.ytimg.com/vi/HIzJ4Jal3qU/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDbHb2DF_PbcFc4y2jE5mcCAyfEhA" alt="...">
-                        
-                        <h2 class="h01"><a href="https://emailmaster.herokuapp.com">Email Extractor & Bulk Email Sender</a></h2>
-                        <p>
-                        I developed a software that enables users to extract email addresses from websites and to send personalised emails.</p>
-
-                        <a href="https://emailmaster.herokuapp.com" class="btn btn-primary">View Project</a>
-
-                    </article>
-
-                    <article class="col-block">
-					
-						<img src="https://i.ytimg.com/vi/v5hp9oy94hs/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA7Q-QrTdiAxR42Nbq4IjVlTc9PJA" alt="...">
-                        
-                        <h2 class="h01"><a href="https://github.com/CoderEren/GiftList/">GiftList</a></h2>
-                        <p>
-                        A social networking site where users can share their links of the items they would like for their birthday or links to their social media profiles. Made with HTML, CSS, PHP and MySQL database with PHPMyAdmin.</p>
-
-                        <a href="https://github.com/CoderEren/GiftList/" class="btn btn-primary">View Project</a>
-
-                    </article>
-
-                </div> <!-- end blog-list -->
-
-            </div> <!-- end col-full -->
-        </div> <!-- end blog-content -->
-
-    </section>
-
-<!--
-        <div class="row masonry-wrap">
-            <div class="masonry">
-
-                <div class="masonry__brick">
-                    <div class="item-folio">
-
-                        <div class="item-folio__thumb">
-                            <a href="https://raw.githubusercontent.com/CoderEren/eCommerceMarketplace/main/fullcashback.png" class="thumb-link" title="eCommerce Marketplace" data-size="1050x700">
-                                <img src="https://raw.githubusercontent.com/CoderEren/eCommerceMarketplace/main/fullcashback.png" 
-                                     srcset="https://raw.githubusercontent.com/CoderEren/eCommerceMarketplace/main/fullcashback.png 1x, https://raw.githubusercontent.com/CoderEren/eCommerceMarketplace/main/fullcashback.png 2x" alt="">
-                                <span class="shadow-overlay"></span>
-                            </a>
-                        </div>
-
-                        <div class="item-folio__text">
-                            <h3 class="item-folio__title">
-                                eCommerce Marketplace
-                            </h3>
-                            <p class="item-folio__cat">
-                                HTML, CSS, Bootstrap, JavaScript, PHP, MySQL
-                            </p>
-                        </div>
-
-                        <a href="https://github.com/CoderEren/eCommerceMarketplace" class="item-folio__project-link" title="Project link">
-                            <i class="im im-link"></i>
-                        </a>
-
-                        <div class="item-folio__caption">
-                            <p>This is an eCommerce marketplace platform with multiple sellers and buyers. The project is called FullCashback as the main idea of the project was to give up to 100% cashback to users who purchased a product on Amazon and wrote a review. As a result, users would receive a product for free or at a discount and sellers would receive reviews and more traffic to their products.
-
-The project is made with HTML, CSS, JavaScript, PHP and MySQL database. I used PHPMyAdmin to control the database and I used Bootstrap CSS framework.</p>
-                        </div>
-
-                    </div> 
-                </div> 
-
-                <div class="masonry__brick">
-                    <div class="item-folio">
-
-                        <div class="item-folio__thumb">
-                            <a href="https://i.ytimg.com/vi/IRKWOKpNJYQ/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDVeSOSKAeH-HDEApfsR3Q0PL-dwQ" class="thumb-link" title="RC Robot Car" data-size="2050x1400">
-                                <img src="https://i.ytimg.com/vi/IRKWOKpNJYQ/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDVeSOSKAeH-HDEApfsR3Q0PL-dwQ" 
-                                     srcset="https://i.ytimg.com/vi/IRKWOKpNJYQ/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDVeSOSKAeH-HDEApfsR3Q0PL-dwQ 1x, https://i.ytimg.com/vi/IRKWOKpNJYQ/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDVeSOSKAeH-HDEApfsR3Q0PL-dwQ 2x" alt="">
-                                <span class="shadow-overlay"></span>
-                            </a>
-                        </div>
-
-                        <div class="item-folio__text">
-                            <h3 class="item-folio__title">
-                                RC Robot Car
-                            </h3>
-                            <p class="item-folio__cat">
-                                Arduino, Electronics
-                            </p>
-                        </div>
-
-                        <a href="https://www.youtube.com/watch?v=IRKWOKpNJYQ" class="item-folio__project-link" title="Project link">
-                            <i class="im im-link"></i>
-                        </a>
-
-                        <div class="item-folio__caption">
-                            <p>Remote controlled robot car using an Arduino, 2 motors, infrared remote control, ultrasonic sensor and L298N motor driver to control the motors.</p>
-                        </div>
-
-                    </div> 
-                </div> -->
-
-            </div>
-        </div> <!-- end masonry -->
-
-    </section> <!-- end works -->
-
-
-
-    <!-- testimonials
-    ================================================== 
-    <div class="s-testimonials">
-
-        <div class="overlay"></div>
-
-        <div class="row testimonials-header">
-            <div class="col-full">
-                <h1 class="h02">What People Say.</h1>
-            </div>
-        </div>
-
-        <div class="row testimonials">
-
-            <div class="col-full testimonials__slider">
-
-                <div class="testimonials__slide">
-                    <img src="images/avatars/user-01.jpg" alt="Author image" class="testimonials__avatar">
-                    <p>Qui ipsam temporibus quisquam velMaiores eos cumque distinctio nam accusantium ipsum. 
-                    Laudantium quia consequatur molestias delectus culpa facere hic dolores aperiam. Accusantium quos qui praesentium corpori.</p>
-                    <div class="testimonials__author h06">
-                        Tim Cook
-                        <span>CEO, Apple</span>
-                    </div>
-                </div>
-
-                <div class="testimonials__slide">
-                    <img src="images/avatars/user-05.jpg" alt="Author image" class="testimonials__avatar">
-                    <p>Excepturi nam cupiditate culpa doloremque deleniti repellat. Veniam quos repellat voluptas animi adipisci.
-                    Nisi eaque consequatur. Quasi voluptas eius distinctio. Atque eos maxime. Qui ipsam temporibus quisquam vel.</p>
-                    <div class="testimonials__author h06">
-                        Sundar Pichai
-                        <span>CEO, Google</span>
-                    </div>
-                </div>
-
-                <div class="testimonials__slide">
-                    <img src="images/avatars/user-02.jpg" alt="Author image" class="testimonials__avatar">
-                    <p>Repellat dignissimos libero. Qui sed at corrupti expedita voluptas odit. Nihil ea quia nesciunt. Ducimus aut sed ipsam.  
-                    Autem eaque officia cum exercitationem sunt voluptatum accusamus. Quasi voluptas eius distinctio.</p>
-                    <div class="testimonials__author h06">
-                        Satya Nadella
-                        <span>CEO, Microsoft</span>
-                    </div>
-                </div>
-                
-            </div> 
-
-        </div> 
-
-    </div> 
--->
-
-    <!-- blog
-    ================================================== 
-    <section id="blog" class="s-blog target-section">
-
-        <div class="row narrow section-intro has-bottom-sep">
-            <div class="col-full">
-                <h3>Journal</h3>
-                <h1>Latest From The Blog.</h1>
-                <p class="lead">Lorem ipsum Dolor adipisicing nostrud et aute. 
-                Excepteur amet commodo ea dolore irure esse Duis nulla sint fugiat cillum 
-                ullamco proident aliquip quis qui voluptate dolore veniam Ut laborum non est in officia.</p>
-            </div>
-        </div>
-
-        <div class="row blog-content">
-            <div class="col-full">
-
-                <div class="blog-list block-1-2 block-tab-full">
-                    <article class="col-block">
-                                
-                        <div class="blog-date">
-                            <a href="blog-single.html">Sept 16, 2017</a>
-                        </div>  
-                        
-                        <h2 class="h01"><a href="blog-single.html">The 10 Golden Rules of Clean Simple Design.</a></h2>
-                        <p>
-                        Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Pellentesque in ipsum id orci porta dapibus. Donec sollicitudin molestie malesuada. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Cras ultricies ligula sed magna dictum porta. Sed porttitor lectus nibh..
-                        </p>
-
-                        <div class="blog-cat">
-                                <a href="blog.html">Branding</a><a href="blog.html">Design</a>
-                        </div>
-
-                        
-                    </article>
-                    <article class="col-block">
-                                
-                        <div class="blog-date">
-                            <a href="blog-single.html">Sept 15, 2017</a>
-                        </div>  
-                        
-                        <h2 class="h01"><a href="blog-single.html">Photography Can Improve Your Graphic Design.</a></h2>
-                        <p>
-                        Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Pellentesque in ipsum id orci porta dapibus. Donec sollicitudin molestie malesuada. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Cras ultricies ligula sed magna dictum porta. Sed porttitor lectus nibh..
-                        </p>
-
-                        <div class="blog-cat">
-                            <a href="blog.html">Photography</a>
-                        </div>
-
-                        
-                    </article>
-                    <article class="col-block">
-                        
-                        <div class="blog-date">
-                            <a href="blog-single.html">Sept 14, 2017</a>
-                        </div>
-
-                        <h2 class="h01"><a href="blog-single.html">Workspace Design Trends and Ideas.</a></h2>
-                        <p>
-                        Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Pellentesque in ipsum id orci porta dapibus. Donec sollicitudin molestie malesuada. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Cras ultricies ligula sed magna dictum porta. Sed porttitor lectus nibh dolore irure esse Duis nulla sint.
-                        </p>
-
-                        <div class="blog-cat">
-                            <a href="blog.html">Branding</a><a href="blog.html">Wordpress</a>
-                        </div>
-                    </article>
-                    <article class="col-block">
-                        
-                        <div class="blog-date">
-                            <a href="blog-single.html">Sept 12, 2017</a>
-                        </div>    
-                        <h2 class="h01"><a href="blog-single.html">Using Patterns in your Branding.</a></h2>
-                        <p>
-                        Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Pellentesque in ipsum id orci porta dapibus. Donec sollicitudin molestie malesuada. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Cras ultricies ligula sed magna dictum porta. Sed porttitor lectus nibh.
-                        </p>
-
-                        <div class="blog-cat">
-                            <a href="blog.html">Design</a><a href="blog.html">Branding</a>
-                        </div>
-                    </article>
-                </div> 
-
-            </div> 
-        </div> 
-
-    </section> 
--->
-
-
-
-    <!-- s-stats
-    ================================================== 
-    <section id="stats" class="s-stats">
-        <div class="row block-1-4 block-tab-1-2 block-mob-full stats">
-
-            <div class="col-block stats__col ">
-                <div class="stats__count">
-                    128
-                </div>
-                <h4>Awards Received</h4>
-            </div>
-            <div class="col-block stats__col">
-                <div class="stats__count">
-                    1500
-                </div>
-                <h4>Cups of Coffee</h4>
-            </div>
-            <div class="col-block stats__col stats__col--highlight">
-                <div class="stats__upsign">
-                    <a href="#"><i class="im im-arrow-up" aria-hidden="true"></i></a>
-                </div>
-                <div class="stats__count">
-                    110
-                </div>
-                <h4>Projects Completed</h4>
-            </div>
-            <div class="col-block stats__col">
-                <div class="stats__count">
-                    101
-                </div>
-                <h4>Happy Clients</h4> 
-            </div>
-
-        </div>
-    </section> 
--->
-
-    <!-- s-stats
-    ================================================== -->
-    <section id="contact" class="s-contact target-section">
-
-        <div class="overlay"></div>
-
-        <div class="row narrow section-intro">
-            <div class="col-full">
-                <h1>Contact Me</h1>
-            </div>
-        </div>
-
-        <div class="row contact__main">
-		<!--
-            <div class="col-eight tab-full contact__form">
-                <form name="contactForm" id="contactForm" method="post" action="">
-                    <fieldset>
-    
-                    <div class="form-field">
-                        <input name="contactName" type="text" id="contactName" placeholder="Name" value="" minlength="2" required="" aria-required="true" class="full-width">
-                    </div>
-                    <div class="form-field">
-                        <input name="contactEmail" type="email" id="contactEmail" placeholder="Email" value="" required="" aria-required="true" class="full-width">
-                    </div>
-                    <div class="form-field">
-                        <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="" class="full-width">
-                    </div>
-                    <div class="form-field">
-                        <textarea name="contactMessage" id="contactMessage" placeholder="message" rows="10" cols="50" required="" aria-required="true" class="full-width"></textarea>
-                    </div>
-                    <div class="form-field">
-                        <button class="full-width btn--primary">Submit</button>
-                        <div class="submit-loader">
-                            <div class="text-loader">Sending...</div>
-                            <div class="s-loader">
-                                <div class="bounce1"></div>
-                                <div class="bounce2"></div>
-                                <div class="bounce3"></div>
-                            </div>
-                        </div>
-                    </div>
-    
-                    </fieldset>
-                </form>
-
-                
-                <div class="message-warning">
-                    Something went wrong. Please try again.
-                </div> 
-            
-               
-                <div class="message-success">
-                    Your message was sent, thank you!<br>
-                </div>
-                        
-            </div>
-			-->
-            
-			<!--
-                <h4 class="h06">Phone</h4>
-                <p>Phone: (+63) 555 1212<br>
-                Mobile: (+63) 555 0100<br>
-                Fax: (+63) 555 0101
-                </p>
-				-->
-            
-			<div class="col-full" style="margin:auto;">
-                <h1 style="color:#fff;">Email</h1>
-                
-                <p style="color:#fff;" class="lead">erengeridonmez@hotmail.com</p>
-            </div>
-
-        </div>
-
-    </section> <!-- end s-contact -->
-
-
-    <!-- footer
-    ================================================== -->
-    <footer>
-        <div class="row">
-            <div class="col-full">
-
-                <div class="footer-logo">
-                    <a class="footer-site-logo" href="#0"><p style="color:#fff;margin:auto;font-size:20px;">Eren Geridonmez</p></a>
-                </div>
-
-                <ul class="footer-social">
-					<li><a href="https://linkedin.com/in/erengeridonmez" target="_blank">
-                        <i class="im im-linkedin" aria-hidden="true"></i>
-                        <span>Linkedin</span>
-                    </a></li>
-					<li><a href="https://github.com/CoderEren" target="_blank">
-                        <i class="im im-github" aria-hidden="true"></i>
-                        <span>GitHub</span>
-                    </a></li>
-                    <li><a href="https://twitter.com/CoderEren" target="_blank">
-                        <i class="im im-twitter" aria-hidden="true"></i>
-                        <span>Twitter</span>
-                    </a></li>
-                    <li><a href="https://instagram.com/erengeridonmez" target="_blank">
-                        <i class="im im-instagram" aria-hidden="true"></i>
-                        <span>Instagram</span>
-                    </a></li>
-                </ul>
-                    
-            </div>
-        </div>
-
-        <div class="row footer-bottom">
-
-            <div class="col-twelve">
-                <div class="go-top">
-                <a class="smoothscroll" title="Back to Top" href="#top"><i class="im im-arrow-up" aria-hidden="true"></i></a>
-                </div>
-            </div>
-
-        </div> <!-- end footer-bottom -->
-
-    </footer> <!-- end footer -->
-
-
-    <!-- photoswipe background
-    ================================================== -->
-    <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
-
-        <div class="pswp__bg"></div>
-        <div class="pswp__scroll-wrap">
-
-            <div class="pswp__container">
-                <div class="pswp__item"></div>
-                <div class="pswp__item"></div>
-                <div class="pswp__item"></div>
-            </div>
-
-            <div class="pswp__ui pswp__ui--hidden">
-                <div class="pswp__top-bar">
-                    <div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button> <button class="pswp__button pswp__button--share" title=
-                    "Share"></button> <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom" title=
-                    "Zoom in/out"></button>
-                    <div class="pswp__preloader">
-                        <div class="pswp__preloader__icn">
-                            <div class="pswp__preloader__cut">
-                                <div class="pswp__preloader__donut"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-                    <div class="pswp__share-tooltip"></div>
-                </div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button> <button class="pswp__button pswp__button--arrow--right" title=
-                "Next (arrow right)"></button>
-                <div class="pswp__caption">
-                    <div class="pswp__caption__center"></div>
-                </div>
-            </div>
-
-        </div>
-
-    </div><!-- end photoSwipe background -->
-
-    <div id="preloader">
-        <div id="loader"></div>
     </div>
 
 
-    <!-- Java Script
-    ================================================== -->
-    <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
 
+    <div id="projects" class="card" style="margin:auto;max-width:800px;width:100%;">
+        <div class="card-body">
+            <h1 style="text-align:center;">Remote-controlled Robot</h1>
+            <p class="card-text">Remote controlled robot from scratch using an Arduino, 2 motors, infrared remote
+                control,
+                ultrasonic sensor and L298N motor driver to control the motors.</p><a
+                href="https://github.com/CoderEren/rc-robot-car" target="_blank" class="fa fa-github"></a>
+
+
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/RC_Robot_Car_with_Arduino.gif" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Automatically stops before falling</h5>
+                            <p>The ultrasonic sensor calculates the time taken for the ultrasound waves to hit the floor
+                                and bounce back. Taking into account the speed of ultrasound waves, the distance above
+                                ground is calculated. If this distance is above a limit, it automatically stops.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <iframe width="900" height="506" src="https://www.youtube.com/embed/IRKWOKpNJYQ"
+                            title="RC Robot Car with Arduino" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen class="d-block w-100"></iframe>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>RC Robot Car Demonstration</h5>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="images/rc-robot-car1.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                        </div>
+                    </div>
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+        </div>
+    </div><br><br>
+
+
+    <div class="card" style="margin:auto;max-width:800px;width:100%;">
+        <div class="card-body">
+            <a style="text-decoration: none;" href="https://emailmaster.herokuapp.com/" target="_blank">
+                <h1 style="text-align:center;">EmailMaster</h1>
+            </a>
+            <p class="card-text">EmailMaster is an email extractor and bulk email sender program (Desktop Application)
+                that I have built using Python and various Python modules. I currently switched to a freemium business
+                model where new customers can download the program with limited features for free. To access the program
+                with unlimited features, they need to upgrade. Visit it <a href="https://emailmaster.herokuapp.com/"
+                    target="_blank">here</a>.</p>
+
+
+            <div id="carouselExampleCaptions2" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/emailmaster-featured-image.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/EmailMaster5.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="images/EmailMaster6.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                        </div>
+                    </div>
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions2"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions2"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+        </div>
+    </div><br><br>
+
+
+    <div class="card" style="margin:auto;max-width:800px;width:100%;">
+        <div class="card-body">
+            <a style="text-decoration: none;" href="https://cryptopredictapp.herokuapp.com/" target="_blank">
+                <h1 style="text-align:center;">CryptoPredict</h1>
+            </a>
+            <p class="card-text">CryptoPredict is a Decentralised Prediction Market for Bitcoin, governed by smart
+                contracts running on the Ethereum blockchain. Visit it <a href="https://cryptopredictapp.herokuapp.com/"
+                    target="_blank">here</a>.</p>
+
+
+            <div id="carouselExampleCaptions3" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions3" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions3" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/cryptopredict2.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/cryptopredict.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                        </div>
+                    </div>
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions3"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions3"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+        </div>
+    </div><br><br>
+
+
+    <div class="card" style="margin:auto;max-width:800px;width:100%;">
+        <div class="card-body">
+
+            <h1 style="text-align:center;">eCommerce Marketplace</h1>
+
+            <p class="card-text">This is an eCommerce marketplace platform with multiple sellers and buyers.
+                The project is made with HTML, CSS, JavaScript, PHP and MySQL database. I used PHPMyAdmin to control the
+                database and I used Bootstrap CSS framework.</p><a
+                href="https://github.com/CoderEren/eCommerceMarketplace" target="_blank" class="fa fa-github"></a>
+
+            <iframe style="width:100%;height:450px;" src="https://www.youtube.com/embed/WgNyWK74WpA"
+                title="eCommerce Marketplace Platform Made With PHP" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+
+
+        </div>
+    </div><br><br>
+
+
+    <div class="card" style="margin:auto;max-width:800px;width:100%;">
+        <div class="card-body">
+
+            <h1 style="text-align:center;">LifeCoach</h1>
+
+            <p class="card-text">LifeCoach is a messaging platform that connects people that need expert advice to life
+                coaches, mentors and experts. It's built using Python Flask and an SQLite database for the
+                registration/login system.</p><a href="https://github.com/CoderEren/LifeCoach" target="_blank"
+                class="fa fa-github"></a>
+
+            <iframe style="width:100%;height:450px;" src="https://www.youtube.com/embed/XXw8AIeVeEk"
+                title="OneHacks LifeCoach Walkthrough" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+
+
+        </div>
+    </div><br><br>
+
+
+    <div class="card" style="margin:auto;max-width:800px;width:100%;">
+        <div class="card-body">
+
+            <h1 style="text-align:center;">NFT Image Generator & Bulk Uploader</h1>
+
+            <p class="card-text">I have developed an NFT Image generator to generate 1000 images with random unique
+                traits. I have also developed a separate program that uploads these NFTs one-by-one to one of the
+                largest NFT marketplaces called Opensea.</p><a href="https://github.com/CoderEren/NFT-image-generator"
+                target="_blank" class="fa fa-github"></a>
+
+            <img src="images/nfts.png" style="width:100%;">
+
+
+        </div>
+    </div><br><br>
+
+
+    <div class="card" style="margin:auto;max-width:800px;width:100%;">
+        <div class="card-body">
+
+            <h1 style="text-align:center;">GiftList</h1>
+
+            <p class="card-text">A social networking site where users can share their links of the items they would like
+                for their birthday or links to their social media profiles. Made with HTML, CSS, PHP and MySQL database
+                with PHPMyAdmin.</p><a href="https://github.com/CoderEren/GiftList" target="_blank"
+                class="fa fa-github"></a>
+
+            <iframe style="width:100%;height:450px;" src="https://www.youtube.com/embed/v5hp9oy94hs"
+                title="OneHacks LifeCoach Walkthrough" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+
+
+        </div>
+    </div><br><br>
+
+
+    <div class="card" style="margin:auto;max-width:800px;width:100%;">
+        <div class="card-body">
+
+            <h1 style="text-align:center;">Arduino Safe</h1>
+
+            <p class="card-text">Arduino safe with keypad password control.
+                Components used: keypad, servo motor, buzzer, Arduino.</p><a
+                href="https://github.com/CoderEren/ArduinoSafe" target="_blank" class="fa fa-github"></a>
+
+            <iframe style="width:100%;height:450px;" src="https://www.youtube.com/embed/AXJLox_GL_o"
+                title="OneHacks LifeCoach Walkthrough" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+
+
+        </div>
+    </div><br><br>
+
+
+    <div class="card" style="margin:auto;max-width:800px;width:100%;">
+        <div class="card-body">
+            <a style="text-decoration: none;"
+                href="https://play.google.com/store/apps/details?id=club.touchyourideas.affirmationwallpaperskickstartyourday"
+                target="_blank">
+                <h1 style="text-align:center;">Affirmation Wallpapers App</h1>
+            </a>
+            <p class="card-text">I have developed an Android mobile application that allows users to change their
+                wallpaper. I have used Java on Android Studio and integrated with Google Admob. You can download it <a
+                    href="https://play.google.com/store/apps/details?id=club.touchyourideas.affirmationwallpaperskickstartyourday"
+                    target="_blank">here</a>.</p><a href="https://github.com/CoderEren/WallpapersApp" target="_blank"
+                class="fa fa-github"></a>
+
+
+            <div id="carouselExampleCaptions4" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions4" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions4" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions4" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" style="text-align:center;">
+                        <img src="images/app1.png" style="max-height:400px;" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                        </div>
+                    </div>
+                    <div class="carousel-item" style="text-align:center;">
+                        <img src="images/app2.png" style="max-height:400px;" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                        </div>
+                    </div>
+
+                    <div class="carousel-item" style="text-align:center;">
+                        <img src="images/app3.png" style="max-height:400px;" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                        </div>
+                    </div>
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions4"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions4"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+        </div>
+    </div><br><br>
+
+
+    <div class="container" id="work-experience" style="max-width:800px;margin:auto;">
+        <h1 style="text-align:center;">Work Experience</h1>
+
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 g-2">
+            <div class="col">
+                <div class="card">
+                    <img src="images/accenture.PNG" style="width:100%;">
+                    <div class="card-body">
+                        <p>I have completed practical task modules in several aspects of the software development
+                            lifecycle
+                            including debugging, unit testing, user acceptance testing, data and privacy and more.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card">
+                    <img src="images/goldman-sachs.PNG" style="width:100%;">
+                    <div class="card-body">
+                        <p>I have completed practical task modules in cracking leaked passwords database. I have
+                            successfully identified the specific hashing algorithms and decrypted the leaked passwords.
+                            I
+                            also suggested ways to secure the database so passwords are more protected.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card">
+                    <img src="images/arm.PNG" style="width:100%;">
+                    <div class="card-body">
+                        <p>I gained insight into how a computer science degree can shape my career and I networked with
+                            software engineers at ARM. We also developed a remote-controlled robot using BBC Microbits
+                            as a team.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card">
+                    <img src="images/springpod.PNG" style="width:100%;">
+                    <div class="card-body">
+                        <p>During the programme, I gained a better understanding of the career pathways within
+                            technology and knowledge of key employability and transferable skills, as well as a sound
+                            awareness of employer expectations.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <br><br>
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+            crossorigin="anonymous"></script>
 </body>
 
 </html>
