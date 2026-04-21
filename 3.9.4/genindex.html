@@ -1,0 +1,2253 @@
+<!doctype html>
+<html class="no-js" lang="en" data-content_root="./">
+  <head><meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <meta name="color-scheme" content="light dark"><link rel="index" title="Index" href="#" /><link rel="search" title="Search" href="search.html" />
+
+    <!-- Generated with Sphinx 7.4.7 and Furo 2024.08.06 --><title>Index - Dojo documentation</title>
+<link rel="stylesheet" type="text/css" href="_static/pygments.css?v=8f2a1f02" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/furo.css?v=354aac6f" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/furo-extensions.css?v=302659d7" />
+    
+    
+
+
+<style>
+  body {
+    --color-code-background: #f8f8f8;
+  --color-code-foreground: black;
+  
+  }
+  @media not print {
+    body[data-theme="dark"] {
+      --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  
+    }
+    @media (prefers-color-scheme: dark) {
+      body:not([data-theme="light"]) {
+        --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  
+      }
+    }
+  }
+</style></head>
+  <body>
+    
+    <script>
+      document.body.dataset.theme = localStorage.getItem("theme") || "auto";
+    </script>
+    
+
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="svg-toc" viewBox="0 0 24 24">
+    <title>Contents</title>
+    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024">
+      <path d="M408 442h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8zm-8 204c0 4.4 3.6 8 8 8h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56zm504-486H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm0 632H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zM115.4 518.9L271.7 642c5.8 4.6 14.4.5 14.4-6.9V388.9c0-7.4-8.5-11.5-14.4-6.9L115.4 505.1a8.74 8.74 0 0 0 0 13.8z"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-menu" viewBox="0 0 24 24">
+    <title>Menu</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-menu">
+      <line x1="3" y1="12" x2="21" y2="12"></line>
+      <line x1="3" y1="6" x2="21" y2="6"></line>
+      <line x1="3" y1="18" x2="21" y2="18"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+    <title>Expand</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-chevron-right">
+      <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
+  </symbol>
+  <symbol id="svg-sun" viewBox="0 0 24 24">
+    <title>Light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather-sun">
+      <circle cx="12" cy="12" r="5"></circle>
+      <line x1="12" y1="1" x2="12" y2="3"></line>
+      <line x1="12" y1="21" x2="12" y2="23"></line>
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+      <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+      <line x1="1" y1="12" x2="3" y2="12"></line>
+      <line x1="21" y1="12" x2="23" y2="12"></line>
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+      <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon" viewBox="0 0 24 24">
+    <title>Dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-moon">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" />
+    </svg>
+  </symbol>
+  <symbol id="svg-sun-with-moon" viewBox="0 0 24 24">
+    <title>Auto light/dark, in light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+      class="icon-custom-derived-from-feather-sun-and-tabler-moon">
+      <path style="opacity: 50%" d="M 5.411 14.504 C 5.471 14.504 5.532 14.504 5.591 14.504 C 3.639 16.319 4.383 19.569 6.931 20.352 C 7.693 20.586 8.512 20.551 9.25 20.252 C 8.023 23.207 4.056 23.725 2.11 21.184 C 0.166 18.642 1.702 14.949 4.874 14.536 C 5.051 14.512 5.231 14.5 5.411 14.5 L 5.411 14.504 Z"/>
+      <line x1="14.5" y1="3.25" x2="14.5" y2="1.25"/>
+      <line x1="14.5" y1="15.85" x2="14.5" y2="17.85"/>
+      <line x1="10.044" y1="5.094" x2="8.63" y2="3.68"/>
+      <line x1="19" y1="14.05" x2="20.414" y2="15.464"/>
+      <line x1="8.2" y1="9.55" x2="6.2" y2="9.55"/>
+      <line x1="20.8" y1="9.55" x2="22.8" y2="9.55"/>
+      <line x1="10.044" y1="14.006" x2="8.63" y2="15.42"/>
+      <line x1="19" y1="5.05" x2="20.414" y2="3.636"/>
+      <circle cx="14.5" cy="9.55" r="3.6"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon-with-sun" viewBox="0 0 24 24">
+    <title>Auto light/dark, in dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+      class="icon-custom-derived-from-feather-sun-and-tabler-moon">
+      <path d="M 8.282 7.007 C 8.385 7.007 8.494 7.007 8.595 7.007 C 5.18 10.184 6.481 15.869 10.942 17.24 C 12.275 17.648 13.706 17.589 15 17.066 C 12.851 22.236 5.91 23.143 2.505 18.696 C -0.897 14.249 1.791 7.786 7.342 7.063 C 7.652 7.021 7.965 7 8.282 7 L 8.282 7.007 Z"/>
+      <line style="opacity: 50%" x1="18" y1="3.705" x2="18" y2="2.5"/>
+      <line style="opacity: 50%" x1="18" y1="11.295" x2="18" y2="12.5"/>
+      <line style="opacity: 50%" x1="15.316" y1="4.816" x2="14.464" y2="3.964"/>
+      <line style="opacity: 50%" x1="20.711" y1="10.212" x2="21.563" y2="11.063"/>
+      <line style="opacity: 50%" x1="14.205" y1="7.5" x2="13.001" y2="7.5"/>
+      <line style="opacity: 50%" x1="21.795" y1="7.5" x2="23" y2="7.5"/>
+      <line style="opacity: 50%" x1="15.316" y1="10.184" x2="14.464" y2="11.036"/>
+      <line style="opacity: 50%" x1="20.711" y1="4.789" x2="21.563" y2="3.937"/>
+      <circle style="opacity: 50%" cx="18" cy="7.5" r="2.169"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-pencil" viewBox="0 0 24 24">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-pencil-code">
+      <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
+      <path d="M13.5 6.5l4 4" />
+      <path d="M20 21l2 -2l-2 -2" />
+      <path d="M17 17l-2 2l2 2" />
+    </svg>
+  </symbol>
+  <symbol id="svg-eye" viewBox="0 0 24 24">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-eye-code">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M10 12a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+      <path
+        d="M11.11 17.958c-3.209 -.307 -5.91 -2.293 -8.11 -5.958c2.4 -4 5.4 -6 9 -6c3.6 0 6.6 2 9 6c-.21 .352 -.427 .688 -.647 1.008" />
+      <path d="M20 21l2 -2l-2 -2" />
+      <path d="M17 17l-2 2l2 2" />
+    </svg>
+  </symbol>
+</svg>
+
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation">
+<input type="checkbox" class="sidebar-toggle" name="__toc" id="__toc">
+<label class="overlay sidebar-overlay" for="__navigation">
+  <div class="visually-hidden">Hide navigation sidebar</div>
+</label>
+<label class="overlay toc-overlay" for="__toc">
+  <div class="visually-hidden">Hide table of contents sidebar</div>
+</label>
+
+<a class="skip-to-content muted-link" href="#furo-main-content">Skip to content</a>
+
+
+
+<div class="page">
+  <header class="mobile-header">
+    <div class="header-left">
+      <label class="nav-overlay-icon" for="__navigation">
+        <div class="visually-hidden">Toggle site navigation sidebar</div>
+        <i class="icon"><svg><use href="#svg-menu"></use></svg></i>
+      </label>
+    </div>
+    <div class="header-center">
+      <a href="index.html"><div class="brand">Dojo  documentation</div></a>
+    </div>
+    <div class="header-right">
+      <div class="theme-toggle-container theme-toggle-header">
+        <button class="theme-toggle">
+          <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+          <svg class="theme-icon-when-auto-light"><use href="#svg-sun-with-moon"></use></svg>
+          <svg class="theme-icon-when-auto-dark"><use href="#svg-moon-with-sun"></use></svg>
+          <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+          <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+        </button>
+      </div>
+      <label class="toc-overlay-icon toc-header-icon no-toc" for="__toc">
+        <div class="visually-hidden">Toggle table of contents sidebar</div>
+        <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+      </label>
+    </div>
+  </header>
+  <aside class="sidebar-drawer">
+    <div class="sidebar-container">
+      
+      <div class="sidebar-sticky"><a class="sidebar-brand" href="index.html">
+  
+  
+  <span class="sidebar-brand-text">Dojo  documentation</span>
+  
+</a>
+<div class="sidebar-tree">
+  <!-- <p class="caption" role="heading">
+    <span class="caption-text">Branches</span>
+  </p> -->
+  <!-- <ul>
+  </ul> -->
+  <p class="caption" role="heading">
+    <!-- <span class="caption-text">Tags</span> -->
+    <span class="caption-text">Versions</span>
+  </p>
+  <ul>
+    <li class="toctree-l1">
+      <a class="reference" href="../2.8.10/index.html">2.8.10</a>
+    </li>
+    <li class="toctree-l1">
+      <a class="reference" href="../2.8.11/index.html">2.8.11</a>
+    </li>
+    <li class="toctree-l1">
+      <a class="reference" href="../2.8.12/index.html">2.8.12</a>
+    </li>
+    <li class="toctree-l1">
+      <a class="reference" href="../2.8.14/index.html">2.8.14</a>
+    </li>
+    <li class="toctree-l1">
+      <a class="reference" href="../2.8.15/index.html">2.8.15</a>
+    </li>
+    <li class="toctree-l1">
+      <a class="reference" href="../2.8.16/index.html">2.8.16</a>
+    </li>
+    <li class="toctree-l1">
+      <a class="reference" href="../2.8.19/index.html">2.8.19</a>
+    </li>
+    <li class="toctree-l1">
+      <a class="reference" href="../3.0.1/index.html">3.0.1</a>
+    </li>
+    <li class="toctree-l1">
+      <a class="reference" href="../3.1.0/index.html">3.1.0</a>
+    </li>
+    <li class="toctree-l1">
+      <a class="reference" href="../3.1.1/index.html">3.1.1</a>
+    </li>
+    <li class="toctree-l1">
+      <a class="reference" href="../3.1.2/index.html">3.1.2</a>
+    </li>
+    <li class="toctree-l1">
+      <a class="reference" href="../3.2.0/index.html">3.2.0</a>
+    </li>
+    <li class="toctree-l1">
+      <a class="reference" href="../3.2.1/index.html">3.2.1</a>
+    </li>
+    <li class="toctree-l1">
+      <a class="reference" href="../3.2.6/index.html">3.2.6</a>
+    </li>
+    <li class="toctree-l1">
+      <a class="reference" href="../3.2.7/index.html">3.2.7</a>
+    </li>
+    <li class="toctree-l1">
+      <a class="reference" href="../3.2.8/index.html">3.2.8</a>
+    </li>
+    <li class="toctree-l1">
+      <a class="reference" href="../3.2.9/index.html">3.2.9</a>
+    </li>
+    <li class="toctree-l1">
+      <a class="reference" href="../3.3.0/index.html">3.3.0</a>
+    </li>
+    <li class="toctree-l1">
+      <a class="reference" href="../3.4.1/index.html">3.4.1</a>
+    </li>
+    <li class="toctree-l1">
+      <a class="reference" href="../3.4.2/index.html">3.4.2</a>
+    </li>
+    <li class="toctree-l1">
+      <a class="reference" href="../3.4.3/index.html">3.4.3</a>
+    </li>
+    <li class="toctree-l1">
+      <a class="reference" href="../3.4.5/index.html">3.4.5</a>
+    </li>
+    <li class="toctree-l1">
+      <a class="reference" href="../3.4.6/index.html">3.4.6</a>
+    </li>
+    <li class="toctree-l1">
+      <a class="reference" href="../3.5.0/index.html">3.5.0</a>
+    </li>
+    <li class="toctree-l1">
+      <a class="reference" href="../3.5.1/index.html">3.5.1</a>
+    </li>
+    <li class="toctree-l1">
+      <a class="reference" href="../3.5.2/index.html">3.5.2</a>
+    </li>
+    <li class="toctree-l1">
+      <a class="reference" href="../3.5.3/index.html">3.5.3</a>
+    </li>
+    <li class="toctree-l1">
+      <a class="reference" href="../3.5.4/index.html">3.5.4</a>
+    </li>
+    <li class="toctree-l1">
+      <a class="reference" href="../3.5.5/index.html">3.5.5</a>
+    </li>
+    <li class="toctree-l1">
+      <a class="reference" href="../3.5.6/index.html">3.5.6</a>
+    </li>
+    <li class="toctree-l1">
+      <a class="reference" href="../3.6.0/index.html">3.6.0</a>
+    </li>
+    <li class="toctree-l1">
+      <a class="reference" href="../3.6.1/index.html">3.6.1</a>
+    </li>
+    <li class="toctree-l1">
+      <a class="reference" href="../3.6.o/index.html">3.6.o</a>
+    </li>
+    <li class="toctree-l1">
+      <a class="reference" href="../3.7.0/index.html">3.7.0</a>
+    </li>
+    <li class="toctree-l1">
+      <a class="reference" href="../3.7.1/index.html">3.7.1</a>
+    </li>
+    <li class="toctree-l1">
+      <a class="reference" href="../3.8.0/index.html">3.8.0</a>
+    </li>
+    <li class="toctree-l1">
+      <a class="reference" href="../3.8.1/index.html">3.8.1</a>
+    </li>
+    <li class="toctree-l1">
+      <a class="reference" href="../3.8.10/index.html">3.8.10</a>
+    </li>
+    <li class="toctree-l1">
+      <a class="reference" href="../3.8.11/index.html">3.8.11</a>
+    </li>
+    <li class="toctree-l1">
+      <a class="reference" href="../3.8.12/index.html">3.8.12</a>
+    </li>
+    <li class="toctree-l1">
+      <a class="reference" href="../3.8.13/index.html">3.8.13</a>
+    </li>
+    <li class="toctree-l1">
+      <a class="reference" href="../3.8.14/index.html">3.8.14</a>
+    </li>
+    <li class="toctree-l1">
+      <a class="reference" href="../3.8.15/index.html">3.8.15</a>
+    </li>
+    <li class="toctree-l1">
+      <a class="reference" href="../3.8.2/index.html">3.8.2</a>
+    </li>
+    <li class="toctree-l1">
+      <a class="reference" href="../3.8.3/index.html">3.8.3</a>
+    </li>
+    <li class="toctree-l1">
+      <a class="reference" href="../3.8.4/index.html">3.8.4</a>
+    </li>
+    <li class="toctree-l1">
+      <a class="reference" href="../3.8.5/index.html">3.8.5</a>
+    </li>
+    <li class="toctree-l1">
+      <a class="reference" href="../3.8.6/index.html">3.8.6</a>
+    </li>
+    <li class="toctree-l1">
+      <a class="reference" href="../3.8.7/index.html">3.8.7</a>
+    </li>
+    <li class="toctree-l1">
+      <a class="reference" href="../3.8.8/index.html">3.8.8</a>
+    </li>
+    <li class="toctree-l1">
+      <a class="reference" href="../3.8.9/index.html">3.8.9</a>
+    </li>
+    <li class="toctree-l1">
+      <a class="reference" href="../3.9.1/index.html">3.9.1</a>
+    </li>
+    <li class="toctree-l1">
+      <a class="reference" href="../3.9.2/index.html">3.9.2</a>
+    </li>
+    <li class="toctree-l1">
+      <a class="reference" href="../3.9.3/index.html">3.9.3</a>
+    </li>
+    <li class="toctree-l1">
+      <a class="reference" href="genindex.html">3.9.4</a>
+    </li>
+    <li class="toctree-l1">
+      <a class="reference" href="../v1.0.0/index.html">v1.0.0</a>
+    </li>
+    <li class="toctree-l1">
+      <a class="reference" href="../v1.5.0/index.html">v1.5.0</a>
+    </li>
+    <li class="toctree-l1">
+      <a class="reference" href="../v1.5.1/index.html">v1.5.1</a>
+    </li>
+    <li class="toctree-l1">
+      <a class="reference" href="../v1.5.2/index.html">v1.5.2</a>
+    </li>
+    <li class="toctree-l1">
+      <a class="reference" href="../v1.5.3/index.html">v1.5.3</a>
+    </li>
+    <li class="toctree-l1">
+      <a class="reference" href="../v1.5.4/index.html">v1.5.4</a>
+    </li>
+    <li class="toctree-l1">
+      <a class="reference" href="../v1.6.0/index.html">v1.6.0</a>
+    </li>
+    <li class="toctree-l1">
+      <a class="reference" href="../v2.0.0/index.html">v2.0.0</a>
+    </li>
+    <li class="toctree-l1">
+      <a class="reference" href="../v2.0.1/index.html">v2.0.1</a>
+    </li>
+    <li class="toctree-l1">
+      <a class="reference" href="../v2.0.2/index.html">v2.0.2</a>
+    </li>
+    <li class="toctree-l1">
+      <a class="reference" href="../v2.0.3/index.html">v2.0.3</a>
+    </li>
+    <li class="toctree-l1">
+      <a class="reference" href="../v2.0.4/index.html">v2.0.4</a>
+    </li>
+    <li class="toctree-l1">
+      <a class="reference" href="../v2.1.0/index.html">v2.1.0</a>
+    </li>
+    <li class="toctree-l1">
+      <a class="reference" href="../v2.2.0/index.html">v2.2.0</a>
+    </li>
+    <li class="toctree-l1">
+      <a class="reference" href="../v2.3.0/index.html">v2.3.0</a>
+    </li>
+    <li class="toctree-l1">
+      <a class="reference" href="../v2.5.0/index.html">v2.5.0</a>
+    </li>
+    <li class="toctree-l1">
+      <a class="reference" href="../v2.8.9/index.html">v2.8.9</a>
+    </li>
+  </ul>
+</div>
+<form class="sidebar-search-container" method="get" action="search.html" role="search">
+  <input class="sidebar-search" placeholder="Search" name="q" aria-label="Search">
+  <input type="hidden" name="check_keywords" value="yes">
+  <input type="hidden" name="area" value="default">
+</form>
+<div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
+  <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul>
+<li class="toctree-l1 has-children"><a class="reference internal" href="dojo.html">dojo package</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><div class="visually-hidden">Toggle navigation of dojo package</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="dojo.actions.html">dojo.actions package</a></li>
+<li class="toctree-l2"><a class="reference internal" href="dojo.agents.html">dojo.agents package</a></li>
+<li class="toctree-l2"><a class="reference internal" href="dojo.common.html">dojo.common package</a></li>
+<li class="toctree-l2"><a class="reference internal" href="dojo.environments.html">dojo.environments package</a></li>
+<li class="toctree-l2"><a class="reference internal" href="dojo.observations.html">dojo.observations package</a></li>
+<li class="toctree-l2"><a class="reference internal" href="dojo.policies.html">dojo.policies package</a></li>
+<li class="toctree-l2"><a class="reference internal" href="dojo.runners.html">dojo.runners package</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="dojo.actions.html">dojo.actions package</a></li>
+<li class="toctree-l1"><a class="reference internal" href="dojo.agents.html">dojo.agents package</a></li>
+<li class="toctree-l1"><a class="reference internal" href="dojo.common.html">dojo.common package</a></li>
+<li class="toctree-l1"><a class="reference internal" href="dojo.environments.html">dojo.environments package</a></li>
+<li class="toctree-l1"><a class="reference internal" href="dojo.observations.html">dojo.observations package</a></li>
+<li class="toctree-l1"><a class="reference internal" href="dojo.runners.html">dojo.runners package</a></li>
+<li class="toctree-l1"><a class="reference internal" href="dojo.policies.html">dojo.policies package</a></li>
+</ul>
+
+</div></div>
+      </div>
+      
+    </div>
+  </aside>
+  <div class="main">
+    <div class="content">
+      <div class="article-container">
+        <a href="#" class="back-to-top muted-link">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"></path>
+          </svg>
+          <span>Back to top</span>
+        </a>
+        <div class="content-icon-container">
+          <div class="theme-toggle-container theme-toggle-content">
+            <button class="theme-toggle">
+              <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+              <svg class="theme-icon-when-auto-light"><use href="#svg-sun-with-moon"></use></svg>
+              <svg class="theme-icon-when-auto-dark"><use href="#svg-moon-with-sun"></use></svg>
+              <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+              <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+            </button>
+          </div>
+          <label class="toc-overlay-icon toc-content-icon no-toc" for="__toc">
+            <div class="visually-hidden">Toggle table of contents sidebar</div>
+            <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+          </label>
+        </div>
+        <article role="main" id="furo-main-content">
+          
+<section class="genindex-section">
+  <h1 id="index">Index</h1>
+  <div class="genindex-jumpbox"><a href="#A"><strong>A</strong></a> | <a href="#B"><strong>B</strong></a> | <a href="#C"><strong>C</strong></a> | <a href="#D"><strong>D</strong></a> | <a href="#E"><strong>E</strong></a> | <a href="#F"><strong>F</strong></a> | <a href="#G"><strong>G</strong></a> | <a href="#H"><strong>H</strong></a> | <a href="#I"><strong>I</strong></a> | <a href="#L"><strong>L</strong></a> | <a href="#M"><strong>M</strong></a> | <a href="#N"><strong>N</strong></a> | <a href="#O"><strong>O</strong></a> | <a href="#P"><strong>P</strong></a> | <a href="#Q"><strong>Q</strong></a> | <a href="#R"><strong>R</strong></a> | <a href="#S"><strong>S</strong></a> | <a href="#T"><strong>T</strong></a> | <a href="#U"><strong>U</strong></a> | <a href="#V"><strong>V</strong></a> | <a href="#W"><strong>W</strong></a></div>
+</section>
+<section id="A" class="genindex-section">
+  <h2>A</h2>
+  <table style="width: 100%" class="indextable genindextable"><tr>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="dojo.actions.html#dojo.actions.AAVEv3Borrow">AAVEv3Borrow (class in dojo.actions)</a>
+
+        <ul>
+          <li><a href="dojo.actions.html#dojo.actions.aaveV3.AAVEv3Borrow">(class in dojo.actions.aaveV3)</a>
+</li>
+        </ul></li>
+        <li><a href="dojo.actions.html#dojo.actions.AAVEv3BorrowToHealthFactor">AAVEv3BorrowToHealthFactor (class in dojo.actions)</a>
+
+        <ul>
+          <li><a href="dojo.actions.html#dojo.actions.aaveV3.AAVEv3BorrowToHealthFactor">(class in dojo.actions.aaveV3)</a>
+</li>
+        </ul></li>
+        <li><a href="dojo.environments.html#dojo.environments.AAVEv3Env">AAVEv3Env (class in dojo.environments)</a>
+
+        <ul>
+          <li><a href="dojo.environments.html#dojo.environments.aaveV3.AAVEv3Env">(class in dojo.environments.aaveV3)</a>
+</li>
+        </ul></li>
+        <li><a href="dojo.actions.html#dojo.actions.AAVEv3FlashLoan">AAVEv3FlashLoan (class in dojo.actions)</a>
+
+        <ul>
+          <li><a href="dojo.actions.html#dojo.actions.aaveV3.AAVEv3FlashLoan">(class in dojo.actions.aaveV3)</a>
+</li>
+        </ul></li>
+        <li><a href="dojo.actions.html#dojo.actions.AAVEv3FlashLoanSimple">AAVEv3FlashLoanSimple (class in dojo.actions)</a>
+
+        <ul>
+          <li><a href="dojo.actions.html#dojo.actions.aaveV3.AAVEv3FlashLoanSimple">(class in dojo.actions.aaveV3)</a>
+</li>
+        </ul></li>
+        <li><a href="dojo.actions.html#dojo.actions.AAVEv3FullLiquidation">AAVEv3FullLiquidation (class in dojo.actions)</a>
+
+        <ul>
+          <li><a href="dojo.actions.html#dojo.actions.aaveV3.AAVEv3FullLiquidation">(class in dojo.actions.aaveV3)</a>
+</li>
+        </ul></li>
+        <li><a href="dojo.actions.html#dojo.actions.AAVEv3Liquidation">AAVEv3Liquidation (class in dojo.actions)</a>
+
+        <ul>
+          <li><a href="dojo.actions.html#dojo.actions.aaveV3.AAVEv3Liquidation">(class in dojo.actions.aaveV3)</a>
+</li>
+        </ul></li>
+        <li><a href="dojo.environments.html#dojo.environments.aaveV3.AaveV3MarketModelType">AaveV3MarketModelType (class in dojo.environments.aaveV3)</a>
+</li>
+        <li><a href="dojo.actions.html#dojo.actions.aaveV3.AAVEv3MintToTreasury">AAVEv3MintToTreasury (class in dojo.actions.aaveV3)</a>
+</li>
+        <li><a href="dojo.observations.html#dojo.observations.AAVEv3Observation">AAVEv3Observation (class in dojo.observations)</a>
+
+        <ul>
+          <li><a href="dojo.observations.html#dojo.observations.aaveV3.AAVEv3Observation">(class in dojo.observations.aaveV3)</a>
+</li>
+        </ul></li>
+        <li><a href="dojo.policies.html#dojo.policies.AAVEv3Policy">AAVEv3Policy (class in dojo.policies)</a>
+</li>
+        <li><a href="dojo.actions.html#dojo.actions.AAVEv3Repay">AAVEv3Repay (class in dojo.actions)</a>
+
+        <ul>
+          <li><a href="dojo.actions.html#dojo.actions.aaveV3.AAVEv3Repay">(class in dojo.actions.aaveV3)</a>
+</li>
+        </ul></li>
+        <li><a href="dojo.actions.html#dojo.actions.AAVEv3RepayAll">AAVEv3RepayAll (class in dojo.actions)</a>
+
+        <ul>
+          <li><a href="dojo.actions.html#dojo.actions.aaveV3.AAVEv3RepayAll">(class in dojo.actions.aaveV3)</a>
+</li>
+        </ul></li>
+        <li><a href="dojo.actions.html#dojo.actions.AAVEv3RepayToHealthFactor">AAVEv3RepayToHealthFactor (class in dojo.actions)</a>
+
+        <ul>
+          <li><a href="dojo.actions.html#dojo.actions.aaveV3.AAVEv3RepayToHealthFactor">(class in dojo.actions.aaveV3)</a>
+</li>
+        </ul></li>
+        <li><a href="dojo.actions.html#dojo.actions.aaveV3.AAVEv3SetUserEMode">AAVEv3SetUserEMode (class in dojo.actions.aaveV3)</a>
+</li>
+        <li><a href="dojo.actions.html#dojo.actions.aaveV3.AAVEv3SetUserUseReserveAsCollateral">AAVEv3SetUserUseReserveAsCollateral (class in dojo.actions.aaveV3)</a>
+</li>
+        <li><a href="dojo.actions.html#dojo.actions.AAVEv3Supply">AAVEv3Supply (class in dojo.actions)</a>
+
+        <ul>
+          <li><a href="dojo.actions.html#dojo.actions.aaveV3.AAVEv3Supply">(class in dojo.actions.aaveV3)</a>
+</li>
+        </ul></li>
+        <li><a href="dojo.actions.html#dojo.actions.AAVEv3Withdraw">AAVEv3Withdraw (class in dojo.actions)</a>
+
+        <ul>
+          <li><a href="dojo.actions.html#dojo.actions.aaveV3.AAVEv3Withdraw">(class in dojo.actions.aaveV3)</a>
+</li>
+        </ul></li>
+        <li><a href="dojo.actions.html#dojo.actions.AAVEv3WithdrawAll">AAVEv3WithdrawAll (class in dojo.actions)</a>
+
+        <ul>
+          <li><a href="dojo.actions.html#dojo.actions.aaveV3.AAVEv3WithdrawAll">(class in dojo.actions.aaveV3)</a>
+</li>
+        </ul></li>
+        <li><a href="dojo.agents.html#dojo.agents.base_agent.BaseAgent.account">account (dojo.agents.base_agent.BaseAgent attribute)</a>
+</li>
+        <li><a href="dojo.observations.html#dojo.observations.aaveV3.ReserveData.accrued_to_treasury">accrued_to_treasury (dojo.observations.aaveV3.ReserveData attribute)</a>
+</li>
+        <li><a href="dojo.observations.html#dojo.observations.uniswapV3.UniswapV3Observation.active_tick_range">active_tick_range() (dojo.observations.uniswapV3.UniswapV3Observation method)</a>
+
+        <ul>
+          <li><a href="dojo.observations.html#dojo.observations.UniswapV3Observation.active_tick_range">(dojo.observations.UniswapV3Observation method)</a>
+</li>
+        </ul></li>
+        <li><a href="dojo.agents.html#dojo.agents.base_agent.BaseAgent.add_asset">add_asset() (dojo.agents.base_agent.BaseAgent method)</a>
+
+        <ul>
+          <li><a href="dojo.agents.html#dojo.agents.BaseAgent.add_asset">(dojo.agents.BaseAgent method)</a>
+</li>
+        </ul></li>
+        <li><a href="dojo.agents.html#dojo.agents.base_agent.BaseAgent.add_nft">add_nft() (dojo.agents.base_agent.BaseAgent method)</a>
+
+        <ul>
+          <li><a href="dojo.agents.html#dojo.agents.BaseAgent.add_nft">(dojo.agents.BaseAgent method)</a>
+</li>
+        </ul></li>
+        <li><a href="dojo.actions.html#dojo.actions.aaveV3.AAVEv3Borrow.agent">agent (dojo.actions.aaveV3.AAVEv3Borrow attribute)</a>
+
+        <ul>
+          <li><a href="dojo.actions.html#dojo.actions.aaveV3.AAVEv3BorrowToHealthFactor.agent">(dojo.actions.aaveV3.AAVEv3BorrowToHealthFactor attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.aaveV3.AAVEv3FlashLoan.agent">(dojo.actions.aaveV3.AAVEv3FlashLoan attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.aaveV3.AAVEv3FlashLoanSimple.agent">(dojo.actions.aaveV3.AAVEv3FlashLoanSimple attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.aaveV3.AAVEv3FullLiquidation.agent">(dojo.actions.aaveV3.AAVEv3FullLiquidation attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.aaveV3.AAVEv3Liquidation.agent">(dojo.actions.aaveV3.AAVEv3Liquidation attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.aaveV3.AAVEv3Repay.agent">(dojo.actions.aaveV3.AAVEv3Repay attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.aaveV3.AAVEv3RepayAll.agent">(dojo.actions.aaveV3.AAVEv3RepayAll attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.aaveV3.AAVEv3RepayToHealthFactor.agent">(dojo.actions.aaveV3.AAVEv3RepayToHealthFactor attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.aaveV3.AAVEv3Supply.agent">(dojo.actions.aaveV3.AAVEv3Supply attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.aaveV3.AAVEv3Withdraw.agent">(dojo.actions.aaveV3.AAVEv3Withdraw attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.aaveV3.AAVEv3WithdrawAll.agent">(dojo.actions.aaveV3.AAVEv3WithdrawAll attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.base_action.BaseAction.agent">(dojo.actions.base_action.BaseAction attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.GmxDeposit.agent">(dojo.actions.GmxDeposit attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.uniswapV3.UniswapV3BurnNew.agent">(dojo.actions.uniswapV3.UniswapV3BurnNew attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.uniswapV3.UniswapV3Collect.agent">(dojo.actions.uniswapV3.UniswapV3Collect attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.uniswapV3.UniswapV3CollectFull.agent">(dojo.actions.uniswapV3.UniswapV3CollectFull attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.uniswapV3.UniswapV3IncreaseLiquidity.agent">(dojo.actions.uniswapV3.UniswapV3IncreaseLiquidity attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.uniswapV3.UniswapV3LiquidatePosition.agent">(dojo.actions.uniswapV3.UniswapV3LiquidatePosition attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.uniswapV3.UniswapV3ProvideLiquidity.agent">(dojo.actions.uniswapV3.UniswapV3ProvideLiquidity attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.uniswapV3.UniswapV3ProvideQuantities.agent">(dojo.actions.uniswapV3.UniswapV3ProvideQuantities attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.uniswapV3.UniswapV3Quote.agent">(dojo.actions.uniswapV3.UniswapV3Quote attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.uniswapV3.UniswapV3SetFeeProtocol.agent">(dojo.actions.uniswapV3.UniswapV3SetFeeProtocol attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.uniswapV3.UniswapV3Trade.agent">(dojo.actions.uniswapV3.UniswapV3Trade attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.uniswapV3.UniswapV3TradeToTickRange.agent">(dojo.actions.uniswapV3.UniswapV3TradeToTickRange attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.uniswapV3.UniswapV3WithdrawLiquidity.agent">(dojo.actions.uniswapV3.UniswapV3WithdrawLiquidity attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.UniswapV3SetFeeProtocol.agent">(dojo.actions.UniswapV3SetFeeProtocol attribute)</a>
+</li>
+          <li><a href="dojo.policies.html#dojo.policies.AAVEv3Policy.agent">(dojo.policies.AAVEv3Policy attribute)</a>
+</li>
+          <li><a href="dojo.policies.html#dojo.policies.base_policy.BasePolicy.agent">(dojo.policies.base_policy.BasePolicy attribute)</a>
+</li>
+          <li><a href="dojo.policies.html#dojo.policies.BasePolicy.agent">(dojo.policies.BasePolicy attribute)</a>
+</li>
+        </ul></li>
+    </ul></td>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="dojo.environments.html#dojo.environments.aaveV3.AAVEv3Env.AgentT">AgentT (dojo.environments.aaveV3.AAVEv3Env attribute)</a>
+
+        <ul>
+          <li><a href="dojo.environments.html#dojo.environments.AAVEv3Env.AgentT">(dojo.environments.AAVEv3Env attribute)</a>
+</li>
+          <li><a href="dojo.environments.html#dojo.environments.GmxV2Env.AgentT">(dojo.environments.GmxV2Env attribute)</a>
+</li>
+          <li><a href="dojo.environments.html#dojo.environments.uniswapV3.UniswapV3Env.AgentT">(dojo.environments.uniswapV3.UniswapV3Env attribute)</a>
+</li>
+          <li><a href="dojo.environments.html#dojo.environments.UniswapV3Env.AgentT">(dojo.environments.UniswapV3Env attribute)</a>
+</li>
+        </ul></li>
+        <li><a href="dojo.actions.html#dojo.actions.aaveV3.AAVEv3Borrow.amount">amount (dojo.actions.aaveV3.AAVEv3Borrow attribute)</a>
+
+        <ul>
+          <li><a href="dojo.actions.html#dojo.actions.aaveV3.AAVEv3FlashLoanSimple.amount">(dojo.actions.aaveV3.AAVEv3FlashLoanSimple attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.aaveV3.AAVEv3Repay.amount">(dojo.actions.aaveV3.AAVEv3Repay attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.aaveV3.AAVEv3Supply.amount">(dojo.actions.aaveV3.AAVEv3Supply attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.aaveV3.AAVEv3Withdraw.amount">(dojo.actions.aaveV3.AAVEv3Withdraw attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.AAVEv3Borrow.amount">(dojo.actions.AAVEv3Borrow attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.AAVEv3FlashLoanSimple.amount">(dojo.actions.AAVEv3FlashLoanSimple attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.AAVEv3Repay.amount">(dojo.actions.AAVEv3Repay attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.AAVEv3Supply.amount">(dojo.actions.AAVEv3Supply attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.AAVEv3Withdraw.amount">(dojo.actions.AAVEv3Withdraw attribute)</a>
+</li>
+        </ul></li>
+        <li><a href="dojo.actions.html#dojo.actions.uniswapV3.UniswapV3ProvideQuantities.amount0">amount0 (dojo.actions.uniswapV3.UniswapV3ProvideQuantities attribute)</a>
+
+        <ul>
+          <li><a href="dojo.actions.html#dojo.actions.UniswapV3ProvideQuantities.amount0">(dojo.actions.UniswapV3ProvideQuantities attribute)</a>
+</li>
+        </ul></li>
+        <li><a href="dojo.actions.html#dojo.actions.uniswapV3.UniswapV3ProvideQuantities.amount1">amount1 (dojo.actions.uniswapV3.UniswapV3ProvideQuantities attribute)</a>
+
+        <ul>
+          <li><a href="dojo.actions.html#dojo.actions.UniswapV3ProvideQuantities.amount1">(dojo.actions.UniswapV3ProvideQuantities attribute)</a>
+</li>
+        </ul></li>
+        <li><a href="dojo.actions.html#dojo.actions.aaveV3.AAVEv3FlashLoan.amounts">amounts (dojo.actions.aaveV3.AAVEv3FlashLoan attribute)</a>
+
+        <ul>
+          <li><a href="dojo.actions.html#dojo.actions.AAVEv3FlashLoan.amounts">(dojo.actions.AAVEv3FlashLoan attribute)</a>
+</li>
+        </ul></li>
+        <li><a href="dojo.agents.html#dojo.agents.base_agent.BaseAgent.approve">approve() (dojo.agents.base_agent.BaseAgent method)</a>
+
+        <ul>
+          <li><a href="dojo.agents.html#dojo.agents.BaseAgent.approve">(dojo.agents.BaseAgent method)</a>
+</li>
+        </ul></li>
+        <li><a href="dojo.common.html#dojo.common.Chain.ARBITRUM">ARBITRUM (dojo.common.Chain attribute)</a>
+</li>
+        <li><a href="dojo.observations.html#dojo.observations.aaveV3.ReserveConfig.asset_paused">asset_paused (dojo.observations.aaveV3.ReserveConfig attribute)</a>
+</li>
+        <li><a href="dojo.observations.html#dojo.observations.aaveV3.ReserveData.atoken_address">atoken_address (dojo.observations.aaveV3.ReserveData attribute)</a>
+</li>
+        <li><a href="dojo.actions.html#dojo.actions.uniswapV3.UniswapV3ProvideQuantities.auto_trade">auto_trade (dojo.actions.uniswapV3.UniswapV3ProvideQuantities attribute)</a>
+
+        <ul>
+          <li><a href="dojo.actions.html#dojo.actions.UniswapV3ProvideQuantities.auto_trade">(dojo.actions.UniswapV3ProvideQuantities attribute)</a>
+</li>
+        </ul></li>
+        <li><a href="dojo.observations.html#dojo.observations.aaveV3.UserAccountData.availableBorrows">availableBorrows (dojo.observations.aaveV3.UserAccountData attribute)</a>
+</li>
+        <li><a href="dojo.common.html#dojo.common.Chain.AVALANCHE">AVALANCHE (dojo.common.Chain attribute)</a>
+</li>
+    </ul></td>
+  </tr></table>
+</section>
+
+<section id="B" class="genindex-section">
+  <h2>B</h2>
+  <table style="width: 100%" class="indextable genindextable"><tr>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="dojo.runners.html#dojo.runners.backtest_run">backtest_run() (in module dojo.runners)</a>
+
+        <ul>
+          <li><a href="dojo.runners.html#dojo.runners.backtest_runner.backtest_run">(in module dojo.runners.backtest_runner)</a>
+</li>
+        </ul></li>
+        <li><a href="dojo.observations.html#dojo.observations.aaveV3.AAVEv3Observation.balance">balance() (dojo.observations.aaveV3.AAVEv3Observation method)</a>
+
+        <ul>
+          <li><a href="dojo.observations.html#dojo.observations.AAVEv3Observation.balance">(dojo.observations.AAVEv3Observation method)</a>
+</li>
+        </ul></li>
+        <li><a href="dojo.actions.html#dojo.actions.base_action.BaseAction">BaseAction (class in dojo.actions.base_action)</a>
+</li>
+        <li><a href="dojo.agents.html#dojo.agents.BaseAgent">BaseAgent (class in dojo.agents)</a>
+
+        <ul>
+          <li><a href="dojo.agents.html#dojo.agents.base_agent.BaseAgent">(class in dojo.agents.base_agent)</a>
+</li>
+        </ul></li>
+    </ul></td>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="dojo.policies.html#dojo.policies.BasePolicy">BasePolicy (class in dojo.policies)</a>
+
+        <ul>
+          <li><a href="dojo.policies.html#dojo.policies.base_policy.BasePolicy">(class in dojo.policies.base_policy)</a>
+</li>
+        </ul></li>
+        <li><a href="dojo.observations.html#dojo.observations.uniswapV3.batch_get_real_quantities">batch_get_real_quantities() (in module dojo.observations.uniswapV3)</a>
+</li>
+        <li><a href="dojo.environments.html#dojo.environments.aaveV3.AAVEv3Env.block_range">block_range (dojo.environments.aaveV3.AAVEv3Env attribute)</a>
+
+        <ul>
+          <li><a href="dojo.environments.html#dojo.environments.uniswapV3.UniswapV3Env.block_range">(dojo.environments.uniswapV3.UniswapV3Env attribute)</a>
+</li>
+        </ul></li>
+        <li><a href="dojo.observations.html#dojo.observations.aaveV3.ReserveConfig.borrow_cap">borrow_cap (dojo.observations.aaveV3.ReserveConfig attribute)</a>
+</li>
+        <li><a href="dojo.observations.html#dojo.observations.aaveV3.ReserveConfig.borrowing_enabled">borrowing_enabled (dojo.observations.aaveV3.ReserveConfig attribute)</a>
+</li>
+        <li><a href="dojo.observations.html#dojo.observations.aaveV3.ReserveConfig.borrowing_in_isolation_enabled">borrowing_in_isolation_enabled (dojo.observations.aaveV3.ReserveConfig attribute)</a>
+</li>
+    </ul></td>
+  </tr></table>
+</section>
+
+<section id="C" class="genindex-section">
+  <h2>C</h2>
+  <table style="width: 100%" class="indextable genindextable"><tr>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="dojo.agents.html#dojo.agents.base_agent.BaseAgent.cache">cache() (dojo.agents.base_agent.BaseAgent method)</a>
+
+        <ul>
+          <li><a href="dojo.agents.html#dojo.agents.BaseAgent.cache">(dojo.agents.BaseAgent method)</a>
+</li>
+        </ul></li>
+        <li><a href="dojo.common.html#dojo.common.Chain">Chain (class in dojo.common)</a>
+</li>
+        <li><a href="dojo.actions.html#dojo.actions.aaveV3.AAVEv3FullLiquidation.collateral">collateral (dojo.actions.aaveV3.AAVEv3FullLiquidation attribute)</a>
+
+        <ul>
+          <li><a href="dojo.actions.html#dojo.actions.aaveV3.AAVEv3Liquidation.collateral">(dojo.actions.aaveV3.AAVEv3Liquidation attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.AAVEv3FullLiquidation.collateral">(dojo.actions.AAVEv3FullLiquidation attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.AAVEv3Liquidation.collateral">(dojo.actions.AAVEv3Liquidation attribute)</a>
+</li>
+        </ul></li>
+    </ul></td>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="dojo.observations.html#dojo.observations.aaveV3.ReserveData.configuration">configuration (dojo.observations.aaveV3.ReserveData attribute)</a>
+</li>
+        <li><a href="dojo.agents.html#dojo.agents.base_agent.BaseAgent.create_web3_account">create_web3_account() (dojo.agents.base_agent.BaseAgent method)</a>
+
+        <ul>
+          <li><a href="dojo.agents.html#dojo.agents.BaseAgent.create_web3_account">(dojo.agents.BaseAgent method)</a>
+</li>
+        </ul></li>
+        <li><a href="dojo.observations.html#dojo.observations.aaveV3.ReserveData.current_liquidity_rate">current_liquidity_rate (dojo.observations.aaveV3.ReserveData attribute)</a>
+</li>
+        <li><a href="dojo.observations.html#dojo.observations.aaveV3.ReserveData.current_stable_borrow_rate">current_stable_borrow_rate (dojo.observations.aaveV3.ReserveData attribute)</a>
+</li>
+        <li><a href="dojo.observations.html#dojo.observations.aaveV3.ReserveData.current_variable_borrow_rate">current_variable_borrow_rate (dojo.observations.aaveV3.ReserveData attribute)</a>
+</li>
+        <li><a href="dojo.observations.html#dojo.observations.aaveV3.UserAccountData.currentLiquidationThreshold">currentLiquidationThreshold (dojo.observations.aaveV3.UserAccountData attribute)</a>
+</li>
+    </ul></td>
+  </tr></table>
+</section>
+
+<section id="D" class="genindex-section">
+  <h2>D</h2>
+  <table style="width: 100%" class="indextable genindextable"><tr>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="dojo.actions.html#dojo.actions.aaveV3.AAVEv3FullLiquidation.debt">debt (dojo.actions.aaveV3.AAVEv3FullLiquidation attribute)</a>
+
+        <ul>
+          <li><a href="dojo.actions.html#dojo.actions.aaveV3.AAVEv3Liquidation.debt">(dojo.actions.aaveV3.AAVEv3Liquidation attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.AAVEv3FullLiquidation.debt">(dojo.actions.AAVEv3FullLiquidation attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.AAVEv3Liquidation.debt">(dojo.actions.AAVEv3Liquidation attribute)</a>
+</li>
+        </ul></li>
+        <li><a href="dojo.observations.html#dojo.observations.aaveV3.ReserveConfig.debt_ceiling">debt_ceiling (dojo.observations.aaveV3.ReserveConfig attribute)</a>
+</li>
+        <li><a href="dojo.actions.html#dojo.actions.aaveV3.AAVEv3Liquidation.debtToCover">debtToCover (dojo.actions.aaveV3.AAVEv3Liquidation attribute)</a>
+
+        <ul>
+          <li><a href="dojo.actions.html#dojo.actions.AAVEv3Liquidation.debtToCover">(dojo.actions.AAVEv3Liquidation attribute)</a>
+</li>
+        </ul></li>
+        <li><a href="dojo.observations.html#dojo.observations.aaveV3.ReserveConfig.decimals">decimals (dojo.observations.aaveV3.ReserveConfig attribute)</a>
+</li>
+        <li><a href="dojo.environments.html#dojo.environments.aaveV3.AaveV3MarketModelType.DEFAULT">DEFAULT (dojo.environments.aaveV3.AaveV3MarketModelType attribute)</a>
+</li>
+        <li><a href="dojo.agents.html#dojo.agents.base_agent.BaseAgent.DEFAULT_ETH">DEFAULT_ETH (dojo.agents.base_agent.BaseAgent attribute)</a>
+
+        <ul>
+          <li><a href="dojo.agents.html#dojo.agents.BaseAgent.DEFAULT_ETH">(dojo.agents.BaseAgent attribute)</a>
+</li>
+        </ul></li>
+        <li><a href="dojo.common.html#dojo.common.utils.div_round_up">div_round_up() (in module dojo.common.utils)</a>
+</li>
+        <li>
+    dojo
+
+        <ul>
+          <li><a href="dojo.html#module-dojo">module</a>
+</li>
+        </ul></li>
+        <li>
+    dojo.actions
+
+        <ul>
+          <li><a href="dojo.actions.html#module-dojo.actions">module</a>
+</li>
+        </ul></li>
+        <li>
+    dojo.actions.aaveV3
+
+        <ul>
+          <li><a href="dojo.actions.html#module-dojo.actions.aaveV3">module</a>
+</li>
+        </ul></li>
+        <li>
+    dojo.actions.base_action
+
+        <ul>
+          <li><a href="dojo.actions.html#module-dojo.actions.base_action">module</a>
+</li>
+        </ul></li>
+        <li>
+    dojo.actions.uniswapV3
+
+        <ul>
+          <li><a href="dojo.actions.html#module-dojo.actions.uniswapV3">module</a>
+</li>
+        </ul></li>
+        <li>
+    dojo.agents
+
+        <ul>
+          <li><a href="dojo.agents.html#module-dojo.agents">module</a>
+</li>
+        </ul></li>
+        <li>
+    dojo.agents.base_agent
+
+        <ul>
+          <li><a href="dojo.agents.html#module-dojo.agents.base_agent">module</a>
+</li>
+        </ul></li>
+        <li>
+    dojo.agents.dummy_agent
+
+        <ul>
+          <li><a href="dojo.agents.html#module-dojo.agents.dummy_agent">module</a>
+</li>
+        </ul></li>
+        <li>
+    dojo.agents.market_agent
+
+        <ul>
+          <li><a href="dojo.agents.html#module-dojo.agents.market_agent">module</a>
+</li>
+        </ul></li>
+    </ul></td>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li>
+    dojo.common
+
+        <ul>
+          <li><a href="dojo.common.html#module-dojo.common">module</a>
+</li>
+        </ul></li>
+        <li>
+    dojo.common.utils
+
+        <ul>
+          <li><a href="dojo.common.html#module-dojo.common.utils">module</a>
+</li>
+        </ul></li>
+        <li>
+    dojo.environments
+
+        <ul>
+          <li><a href="dojo.environments.html#module-dojo.environments">module</a>
+</li>
+        </ul></li>
+        <li>
+    dojo.environments.aaveV3
+
+        <ul>
+          <li><a href="dojo.environments.html#module-dojo.environments.aaveV3">module</a>
+</li>
+        </ul></li>
+        <li>
+    dojo.environments.base_environments
+
+        <ul>
+          <li><a href="dojo.environments.html#module-dojo.environments.base_environments">module</a>
+</li>
+        </ul></li>
+        <li>
+    dojo.environments.uniswapV3
+
+        <ul>
+          <li><a href="dojo.environments.html#module-dojo.environments.uniswapV3">module</a>
+</li>
+        </ul></li>
+        <li>
+    dojo.observations
+
+        <ul>
+          <li><a href="dojo.observations.html#module-dojo.observations">module</a>
+</li>
+        </ul></li>
+        <li>
+    dojo.observations.aaveV3
+
+        <ul>
+          <li><a href="dojo.observations.html#module-dojo.observations.aaveV3">module</a>
+</li>
+        </ul></li>
+        <li>
+    dojo.observations.base_observation
+
+        <ul>
+          <li><a href="dojo.observations.html#module-dojo.observations.base_observation">module</a>
+</li>
+        </ul></li>
+        <li>
+    dojo.observations.uniswapV3
+
+        <ul>
+          <li><a href="dojo.observations.html#module-dojo.observations.uniswapV3">module</a>
+</li>
+        </ul></li>
+        <li>
+    dojo.policies
+
+        <ul>
+          <li><a href="dojo.policies.html#module-dojo.policies">module</a>
+</li>
+        </ul></li>
+        <li>
+    dojo.policies.base_policy
+
+        <ul>
+          <li><a href="dojo.policies.html#module-dojo.policies.base_policy">module</a>
+</li>
+        </ul></li>
+        <li>
+    dojo.runners
+
+        <ul>
+          <li><a href="dojo.runners.html#module-dojo.runners">module</a>
+</li>
+        </ul></li>
+        <li>
+    dojo.runners.backtest_runner
+
+        <ul>
+          <li><a href="dojo.runners.html#module-dojo.runners.backtest_runner">module</a>
+</li>
+        </ul></li>
+        <li>
+    dojo.runners.live_runner
+
+        <ul>
+          <li><a href="dojo.runners.html#module-dojo.runners.live_runner">module</a>
+</li>
+        </ul></li>
+        <li><a href="dojo.policies.html#dojo.policies.DoNothingPolicy">DoNothingPolicy (class in dojo.policies)</a>
+</li>
+    </ul></td>
+  </tr></table>
+</section>
+
+<section id="E" class="genindex-section">
+  <h2>E</h2>
+  <table style="width: 100%" class="indextable genindextable"><tr>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="dojo.actions.html#dojo.actions.aaveV3.AAVEv3SetUserEMode.emode">emode (dojo.actions.aaveV3.AAVEv3SetUserEMode attribute)</a>
+</li>
+        <li><a href="dojo.observations.html#dojo.observations.aaveV3.ReserveConfig.emode_category">emode_category (dojo.observations.aaveV3.ReserveConfig attribute)</a>
+</li>
+        <li><a href="dojo.agents.html#dojo.agents.base_agent.BaseAgent.erc20_portfolio">erc20_portfolio() (dojo.agents.base_agent.BaseAgent method)</a>
+
+        <ul>
+          <li><a href="dojo.agents.html#dojo.agents.BaseAgent.erc20_portfolio">(dojo.agents.BaseAgent method)</a>
+</li>
+        </ul></li>
+        <li><a href="dojo.agents.html#dojo.agents.base_agent.BaseAgent.erc20_wealth">erc20_wealth() (dojo.agents.base_agent.BaseAgent method)</a>
+
+        <ul>
+          <li><a href="dojo.agents.html#dojo.agents.BaseAgent.erc20_wealth">(dojo.agents.BaseAgent method)</a>
+</li>
+        </ul></li>
+    </ul></td>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="dojo.agents.html#dojo.agents.base_agent.BaseAgent.erc721_portfolio">erc721_portfolio() (dojo.agents.base_agent.BaseAgent method)</a>
+
+        <ul>
+          <li><a href="dojo.agents.html#dojo.agents.BaseAgent.erc721_portfolio">(dojo.agents.BaseAgent method)</a>
+</li>
+        </ul></li>
+        <li><a href="dojo.common.html#dojo.common.Chain.ETHEREUM">ETHEREUM (dojo.common.Chain attribute)</a>
+</li>
+        <li><a href="dojo.observations.html#dojo.observations.aaveV3.AAVEv3Observation.events_last_blocks">events_last_blocks() (dojo.observations.aaveV3.AAVEv3Observation method)</a>
+
+        <ul>
+          <li><a href="dojo.observations.html#dojo.observations.AAVEv3Observation.events_last_blocks">(dojo.observations.AAVEv3Observation method)</a>
+</li>
+        </ul></li>
+    </ul></td>
+  </tr></table>
+</section>
+
+<section id="F" class="genindex-section">
+  <h2>F</h2>
+  <table style="width: 100%" class="indextable genindextable"><tr>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="dojo.actions.html#dojo.actions.aaveV3.AAVEv3BorrowToHealthFactor.factor">factor (dojo.actions.aaveV3.AAVEv3BorrowToHealthFactor attribute)</a>
+
+        <ul>
+          <li><a href="dojo.actions.html#dojo.actions.aaveV3.AAVEv3RepayToHealthFactor.factor">(dojo.actions.aaveV3.AAVEv3RepayToHealthFactor attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.AAVEv3BorrowToHealthFactor.factor">(dojo.actions.AAVEv3BorrowToHealthFactor attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.AAVEv3RepayToHealthFactor.factor">(dojo.actions.AAVEv3RepayToHealthFactor attribute)</a>
+</li>
+        </ul></li>
+        <li><a href="dojo.common.html#dojo.common.Chain.FANTOM">FANTOM (dojo.common.Chain attribute)</a>
+</li>
+        <li><a href="dojo.policies.html#dojo.policies.base_policy.BasePolicy.fit">fit() (dojo.policies.base_policy.BasePolicy method)</a>
+
+        <ul>
+          <li><a href="dojo.policies.html#dojo.policies.BasePolicy.fit">(dojo.policies.BasePolicy method)</a>
+</li>
+        </ul></li>
+    </ul></td>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="dojo.agents.html#dojo.agents.base_agent.BaseAgent.fund_erc20">fund_erc20() (dojo.agents.base_agent.BaseAgent method)</a>
+
+        <ul>
+          <li><a href="dojo.agents.html#dojo.agents.BaseAgent.fund_erc20">(dojo.agents.BaseAgent method)</a>
+</li>
+        </ul></li>
+        <li><a href="dojo.agents.html#dojo.agents.base_agent.BaseAgent.fund_erc721">fund_erc721() (dojo.agents.base_agent.BaseAgent method)</a>
+
+        <ul>
+          <li><a href="dojo.agents.html#dojo.agents.BaseAgent.fund_erc721">(dojo.agents.BaseAgent method)</a>
+</li>
+        </ul></li>
+        <li><a href="dojo.agents.html#dojo.agents.base_agent.BaseAgent.fund_eth">fund_eth() (dojo.agents.base_agent.BaseAgent method)</a>
+
+        <ul>
+          <li><a href="dojo.agents.html#dojo.agents.BaseAgent.fund_eth">(dojo.agents.BaseAgent method)</a>
+</li>
+        </ul></li>
+    </ul></td>
+  </tr></table>
+</section>
+
+<section id="G" class="genindex-section">
+  <h2>G</h2>
+  <table style="width: 100%" class="indextable genindextable"><tr>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="dojo.observations.html#dojo.observations.GmxV2Observation.get_account_positions">get_account_positions() (dojo.observations.GmxV2Observation method)</a>
+</li>
+        <li><a href="dojo.observations.html#dojo.observations.aaveV3.AAVEv3Observation.get_asset_price">get_asset_price() (dojo.observations.aaveV3.AAVEv3Observation method)</a>
+
+        <ul>
+          <li><a href="dojo.observations.html#dojo.observations.AAVEv3Observation.get_asset_price">(dojo.observations.AAVEv3Observation method)</a>
+</li>
+        </ul></li>
+        <li><a href="dojo.observations.html#dojo.observations.aaveV3.AAVEv3Observation.get_asset_prices">get_asset_prices() (dojo.observations.aaveV3.AAVEv3Observation method)</a>
+
+        <ul>
+          <li><a href="dojo.observations.html#dojo.observations.AAVEv3Observation.get_asset_prices">(dojo.observations.AAVEv3Observation method)</a>
+</li>
+        </ul></li>
+        <li><a href="dojo.observations.html#dojo.observations.GmxV2Observation.get_deposit_amount_out">get_deposit_amount_out() (dojo.observations.GmxV2Observation method)</a>
+</li>
+        <li><a href="dojo.agents.html#dojo.agents.UniswapV3Agent.get_hodling_difference">get_hodling_difference() (dojo.agents.UniswapV3Agent method)</a>
+</li>
+        <li><a href="dojo.observations.html#dojo.observations.uniswapV3.get_liquidity">get_liquidity() (in module dojo.observations.uniswapV3)</a>
+</li>
+        <li><a href="dojo.observations.html#dojo.observations.uniswapV3.get_liquidity0">get_liquidity0() (in module dojo.observations.uniswapV3)</a>
+</li>
+        <li><a href="dojo.observations.html#dojo.observations.uniswapV3.get_liquidity1">get_liquidity1() (in module dojo.observations.uniswapV3)</a>
+</li>
+        <li><a href="dojo.agents.html#dojo.agents.UniswapV3Agent.get_liquidity_ownership_tokens">get_liquidity_ownership_tokens() (dojo.agents.UniswapV3Agent method)</a>
+</li>
+        <li><a href="dojo.observations.html#dojo.observations.GmxV2Observation.get_market">get_market() (dojo.observations.GmxV2Observation method)</a>
+</li>
+        <li><a href="dojo.observations.html#dojo.observations.GmxV2Observation.get_market_info">get_market_info() (dojo.observations.GmxV2Observation method)</a>
+</li>
+        <li><a href="dojo.observations.html#dojo.observations.GmxV2Observation.get_market_token_price_for_deposit">get_market_token_price_for_deposit() (dojo.observations.GmxV2Observation method)</a>
+</li>
+        <li><a href="dojo.observations.html#dojo.observations.GmxV2Observation.get_market_token_price_for_traders">get_market_token_price_for_traders() (dojo.observations.GmxV2Observation method)</a>
+</li>
+        <li><a href="dojo.observations.html#dojo.observations.GmxV2Observation.get_market_token_price_for_withdraw">get_market_token_price_for_withdraw() (dojo.observations.GmxV2Observation method)</a>
+</li>
+        <li><a href="dojo.observations.html#dojo.observations.GmxV2Observation.get_net_pnl">get_net_pnl() (dojo.observations.GmxV2Observation method)</a>
+</li>
+        <li><a href="dojo.observations.html#dojo.observations.GmxV2Observation.get_open_interest_with_pnl">get_open_interest_with_pnl() (dojo.observations.GmxV2Observation method)</a>
+</li>
+        <li><a href="dojo.agents.html#dojo.agents.UniswapV3Agent.get_pnl">get_pnl() (dojo.agents.UniswapV3Agent method)</a>
+
+        <ul>
+          <li><a href="dojo.observations.html#dojo.observations.GmxV2Observation.get_pnl">(dojo.observations.GmxV2Observation method)</a>
+</li>
+        </ul></li>
+        <li><a href="dojo.observations.html#dojo.observations.uniswapV3.get_pool_fee">get_pool_fee() (in module dojo.observations.uniswapV3)</a>
+</li>
+        <li><a href="dojo.observations.html#dojo.observations.GmxV2Observation.get_position">get_position() (dojo.observations.GmxV2Observation method)</a>
+</li>
+        <li><a href="dojo.observations.html#dojo.observations.GmxV2Observation.get_position_pnl_usd">get_position_pnl_usd() (dojo.observations.GmxV2Observation method)</a>
+</li>
+        <li><a href="dojo.observations.html#dojo.observations.uniswapV3.get_quantity0_delta">get_quantity0_delta() (in module dojo.observations.uniswapV3)</a>
+</li>
+        <li><a href="dojo.observations.html#dojo.observations.uniswapV3.get_quantity1_delta">get_quantity1_delta() (in module dojo.observations.uniswapV3)</a>
+</li>
+        <li><a href="dojo.observations.html#dojo.observations.uniswapV3.get_real_quantities">get_real_quantities() (in module dojo.observations.uniswapV3)</a>
+</li>
+        <li><a href="dojo.observations.html#dojo.observations.uniswapV3.get_real_quantity0">get_real_quantity0() (in module dojo.observations.uniswapV3)</a>
+</li>
+        <li><a href="dojo.observations.html#dojo.observations.uniswapV3.get_real_quantity1">get_real_quantity1() (in module dojo.observations.uniswapV3)</a>
+</li>
+    </ul></td>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="dojo.observations.html#dojo.observations.aaveV3.AAVEv3Observation.get_reserve_data">get_reserve_data() (dojo.observations.aaveV3.AAVEv3Observation method)</a>
+
+        <ul>
+          <li><a href="dojo.observations.html#dojo.observations.AAVEv3Observation.get_reserve_data">(dojo.observations.AAVEv3Observation method)</a>
+</li>
+        </ul></li>
+        <li><a href="dojo.observations.html#dojo.observations.GmxV2Observation.get_token_price_by_token_address">get_token_price_by_token_address() (dojo.observations.GmxV2Observation method)</a>
+</li>
+        <li><a href="dojo.observations.html#dojo.observations.GmxV2Observation.get_token_price_by_token_symbol">get_token_price_by_token_symbol() (dojo.observations.GmxV2Observation method)</a>
+</li>
+        <li><a href="dojo.agents.html#dojo.agents.UniswapV3Agent.get_total_current_wealth">get_total_current_wealth() (dojo.agents.UniswapV3Agent method)</a>
+</li>
+        <li><a href="dojo.observations.html#dojo.observations.aaveV3.AAVEv3Observation.get_user_account_data">get_user_account_data() (dojo.observations.aaveV3.AAVEv3Observation method)</a>
+
+        <ul>
+          <li><a href="dojo.observations.html#dojo.observations.AAVEv3Observation.get_user_account_data">(dojo.observations.AAVEv3Observation method)</a>
+</li>
+        </ul></li>
+        <li><a href="dojo.observations.html#dojo.observations.aaveV3.AAVEv3Observation.get_user_account_data_base">get_user_account_data_base() (dojo.observations.aaveV3.AAVEv3Observation method)</a>
+
+        <ul>
+          <li><a href="dojo.observations.html#dojo.observations.AAVEv3Observation.get_user_account_data_base">(dojo.observations.AAVEv3Observation method)</a>
+</li>
+        </ul></li>
+        <li><a href="dojo.observations.html#dojo.observations.aaveV3.AAVEv3Observation.get_user_current_debt">get_user_current_debt() (dojo.observations.aaveV3.AAVEv3Observation method)</a>
+
+        <ul>
+          <li><a href="dojo.observations.html#dojo.observations.AAVEv3Observation.get_user_current_debt">(dojo.observations.AAVEv3Observation method)</a>
+</li>
+        </ul></li>
+        <li><a href="dojo.observations.html#dojo.observations.uniswapV3.get_virtual_quantities">get_virtual_quantities() (in module dojo.observations.uniswapV3)</a>
+</li>
+        <li><a href="dojo.actions.html#dojo.actions.GmxWithdrawal.gm_token_amount">gm_token_amount (dojo.actions.GmxWithdrawal attribute)</a>
+</li>
+        <li><a href="dojo.actions.html#dojo.actions.GmxDecreaseLongLimitOrder">GmxDecreaseLongLimitOrder (class in dojo.actions)</a>
+</li>
+        <li><a href="dojo.actions.html#dojo.actions.GmxDecreaseLongMarketOrder">GmxDecreaseLongMarketOrder (class in dojo.actions)</a>
+</li>
+        <li><a href="dojo.actions.html#dojo.actions.GmxDecreaseShortLimitOrder">GmxDecreaseShortLimitOrder (class in dojo.actions)</a>
+</li>
+        <li><a href="dojo.actions.html#dojo.actions.GmxDecreaseShortMarketOrder">GmxDecreaseShortMarketOrder (class in dojo.actions)</a>
+</li>
+        <li><a href="dojo.actions.html#dojo.actions.GmxDeposit">GmxDeposit (class in dojo.actions)</a>
+</li>
+        <li><a href="dojo.actions.html#dojo.actions.GmxIncreaseLongLimitOrder">GmxIncreaseLongLimitOrder (class in dojo.actions)</a>
+</li>
+        <li><a href="dojo.actions.html#dojo.actions.GmxIncreaseLongMarketOrder">GmxIncreaseLongMarketOrder (class in dojo.actions)</a>
+</li>
+        <li><a href="dojo.actions.html#dojo.actions.GmxIncreaseShortLimitOrder">GmxIncreaseShortLimitOrder (class in dojo.actions)</a>
+</li>
+        <li><a href="dojo.actions.html#dojo.actions.GmxIncreaseShortMarketOrder">GmxIncreaseShortMarketOrder (class in dojo.actions)</a>
+</li>
+        <li><a href="dojo.actions.html#dojo.actions.GmxSwapOrder">GmxSwapOrder (class in dojo.actions)</a>
+</li>
+        <li><a href="dojo.agents.html#dojo.agents.GmxV2Agent">GmxV2Agent (class in dojo.agents)</a>
+</li>
+        <li><a href="dojo.environments.html#dojo.environments.GmxV2Env">GmxV2Env (class in dojo.environments)</a>
+</li>
+        <li><a href="dojo.observations.html#dojo.observations.GmxV2Observation">GmxV2Observation (class in dojo.observations)</a>
+</li>
+        <li><a href="dojo.policies.html#dojo.policies.GmxV2Policy">GmxV2Policy (class in dojo.policies)</a>
+</li>
+        <li><a href="dojo.actions.html#dojo.actions.GmxWithdrawal">GmxWithdrawal (class in dojo.actions)</a>
+</li>
+    </ul></td>
+  </tr></table>
+</section>
+
+<section id="H" class="genindex-section">
+  <h2>H</h2>
+  <table style="width: 100%" class="indextable genindextable"><tr>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="dojo.observations.html#dojo.observations.aaveV3.UserAccountData.healthFactor">healthFactor (dojo.observations.aaveV3.UserAccountData attribute)</a>
+</li>
+    </ul></td>
+  </tr></table>
+</section>
+
+<section id="I" class="genindex-section">
+  <h2>I</h2>
+  <table style="width: 100%" class="indextable genindextable"><tr>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="dojo.agents.html#dojo.agents.base_agent.BaseAgent.id">id (dojo.agents.base_agent.BaseAgent attribute)</a>
+
+        <ul>
+          <li><a href="dojo.agents.html#dojo.agents.BaseAgent.id">(dojo.agents.BaseAgent attribute)</a>
+</li>
+          <li><a href="dojo.observations.html#dojo.observations.aaveV3.ReserveData.id">(dojo.observations.aaveV3.ReserveData attribute)</a>
+</li>
+        </ul></li>
+        <li><a href="dojo.agents.html#dojo.agents.base_agent.BaseAgent.impersonate_web3_account">impersonate_web3_account() (dojo.agents.base_agent.BaseAgent method)</a>
+
+        <ul>
+          <li><a href="dojo.agents.html#dojo.agents.BaseAgent.impersonate_web3_account">(dojo.agents.BaseAgent method)</a>
+</li>
+        </ul></li>
+        <li><a href="dojo.actions.html#dojo.actions.GmxSwapOrder.in_token">in_token (dojo.actions.GmxSwapOrder attribute)</a>
+</li>
+        <li><a href="dojo.actions.html#dojo.actions.GmxSwapOrder.in_token_amount">in_token_amount (dojo.actions.GmxSwapOrder attribute)</a>
+</li>
+        <li><a href="dojo.observations.html#dojo.observations.GmxV2Observation.index_token_price">index_token_price() (dojo.observations.GmxV2Observation method)</a>
+</li>
+    </ul></td>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="dojo.observations.html#dojo.observations.GmxV2Observation.index_token_price_max">index_token_price_max() (dojo.observations.GmxV2Observation method)</a>
+</li>
+        <li><a href="dojo.observations.html#dojo.observations.GmxV2Observation.index_token_price_min">index_token_price_min() (dojo.observations.GmxV2Observation method)</a>
+</li>
+        <li><a href="dojo.actions.html#dojo.actions.GmxDeposit.initial_long_token_symbol">initial_long_token_symbol (dojo.actions.GmxDeposit attribute)</a>
+</li>
+        <li><a href="dojo.actions.html#dojo.actions.GmxDeposit.initial_short_token_symbol">initial_short_token_symbol (dojo.actions.GmxDeposit attribute)</a>
+</li>
+        <li><a href="dojo.common.html#dojo.common.utils.integerdiv">integerdiv() (in module dojo.common.utils)</a>
+</li>
+        <li><a href="dojo.observations.html#dojo.observations.aaveV3.ReserveData.interest_rate_strategy_address">interest_rate_strategy_address (dojo.observations.aaveV3.ReserveData attribute)</a>
+</li>
+        <li><a href="dojo.observations.html#dojo.observations.aaveV3.ReserveConfig.is_active">is_active (dojo.observations.aaveV3.ReserveConfig attribute)</a>
+</li>
+        <li><a href="dojo.observations.html#dojo.observations.aaveV3.ReserveConfig.is_frozen">is_frozen (dojo.observations.aaveV3.ReserveConfig attribute)</a>
+</li>
+        <li><a href="dojo.observations.html#dojo.observations.aaveV3.ReserveData.isolation_mode_total_debt">isolation_mode_total_debt (dojo.observations.aaveV3.ReserveData attribute)</a>
+</li>
+    </ul></td>
+  </tr></table>
+</section>
+
+<section id="L" class="genindex-section">
+  <h2>L</h2>
+  <table style="width: 100%" class="indextable genindextable"><tr>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="dojo.observations.html#dojo.observations.aaveV3.ReserveData.last_update_timestamp">last_update_timestamp (dojo.observations.aaveV3.ReserveData attribute)</a>
+</li>
+        <li><a href="dojo.observations.html#dojo.observations.aaveV3.ReserveConfig.liquidation_bonus">liquidation_bonus (dojo.observations.aaveV3.ReserveConfig attribute)</a>
+</li>
+        <li><a href="dojo.observations.html#dojo.observations.aaveV3.ReserveConfig.liquidation_fee">liquidation_fee (dojo.observations.aaveV3.ReserveConfig attribute)</a>
+</li>
+        <li><a href="dojo.observations.html#dojo.observations.aaveV3.ReserveConfig.liquidation_threshold">liquidation_threshold (dojo.observations.aaveV3.ReserveConfig attribute)</a>
+</li>
+        <li><a href="dojo.actions.html#dojo.actions.uniswapV3.UniswapV3IncreaseLiquidity.liquidity">liquidity (dojo.actions.uniswapV3.UniswapV3IncreaseLiquidity attribute)</a>
+
+        <ul>
+          <li><a href="dojo.actions.html#dojo.actions.uniswapV3.UniswapV3ProvideLiquidity.liquidity">(dojo.actions.uniswapV3.UniswapV3ProvideLiquidity attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.uniswapV3.UniswapV3Quote.liquidity">(dojo.actions.uniswapV3.UniswapV3Quote attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.uniswapV3.UniswapV3WithdrawLiquidity.liquidity">(dojo.actions.uniswapV3.UniswapV3WithdrawLiquidity attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.UniswapV3IncreaseLiquidity.liquidity">(dojo.actions.UniswapV3IncreaseLiquidity attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.UniswapV3ProvideLiquidity.liquidity">(dojo.actions.UniswapV3ProvideLiquidity attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.UniswapV3Quote.liquidity">(dojo.actions.UniswapV3Quote attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.UniswapV3WithdrawLiquidity.liquidity">(dojo.actions.UniswapV3WithdrawLiquidity attribute)</a>
+</li>
+        </ul></li>
+        <li><a href="dojo.observations.html#dojo.observations.uniswapV3.UniswapV3Observation.liquidity">liquidity() (dojo.observations.uniswapV3.UniswapV3Observation method)</a>
+
+        <ul>
+          <li><a href="dojo.observations.html#dojo.observations.UniswapV3Observation.liquidity">(dojo.observations.UniswapV3Observation method)</a>
+</li>
+        </ul></li>
+    </ul></td>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="dojo.observations.html#dojo.observations.aaveV3.ReserveData.liquidity_index">liquidity_index (dojo.observations.aaveV3.ReserveData attribute)</a>
+</li>
+        <li><a href="dojo.runners.html#dojo.runners.live_runner.live_run">live_run() (in module dojo.runners.live_runner)</a>
+</li>
+        <li><a href="dojo.observations.html#dojo.observations.GmxV2Observation.long_token_price">long_token_price() (dojo.observations.GmxV2Observation method)</a>
+</li>
+        <li><a href="dojo.actions.html#dojo.actions.GmxDeposit.long_token_usd">long_token_usd (dojo.actions.GmxDeposit attribute)</a>
+</li>
+        <li><a href="dojo.actions.html#dojo.actions.uniswapV3.LowLevelUniswapV3Trade">LowLevelUniswapV3Trade (class in dojo.actions.uniswapV3)</a>
+</li>
+        <li><a href="dojo.observations.html#dojo.observations.uniswapV3.UniswapV3Observation.lp_fees">lp_fees() (dojo.observations.uniswapV3.UniswapV3Observation method)</a>
+
+        <ul>
+          <li><a href="dojo.observations.html#dojo.observations.UniswapV3Observation.lp_fees">(dojo.observations.UniswapV3Observation method)</a>
+</li>
+        </ul></li>
+        <li><a href="dojo.observations.html#dojo.observations.uniswapV3.UniswapV3Observation.lp_portfolio">lp_portfolio() (dojo.observations.uniswapV3.UniswapV3Observation method)</a>
+
+        <ul>
+          <li><a href="dojo.observations.html#dojo.observations.UniswapV3Observation.lp_portfolio">(dojo.observations.UniswapV3Observation method)</a>
+</li>
+        </ul></li>
+        <li><a href="dojo.observations.html#dojo.observations.uniswapV3.UniswapV3Observation.lp_quantities">lp_quantities() (dojo.observations.uniswapV3.UniswapV3Observation method)</a>
+
+        <ul>
+          <li><a href="dojo.observations.html#dojo.observations.UniswapV3Observation.lp_quantities">(dojo.observations.UniswapV3Observation method)</a>
+</li>
+        </ul></li>
+        <li><a href="dojo.observations.html#dojo.observations.aaveV3.ReserveConfig.ltv">ltv (dojo.observations.aaveV3.ReserveConfig attribute)</a>
+
+        <ul>
+          <li><a href="dojo.observations.html#dojo.observations.aaveV3.UserAccountData.ltv">(dojo.observations.aaveV3.UserAccountData attribute)</a>
+</li>
+        </ul></li>
+    </ul></td>
+  </tr></table>
+</section>
+
+<section id="M" class="genindex-section">
+  <h2>M</h2>
+  <table style="width: 100%" class="indextable genindextable"><tr>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="dojo.observations.html#dojo.observations.aaveV3.AAVEv3Observation.market_agent_tokens">market_agent_tokens() (dojo.observations.aaveV3.AAVEv3Observation method)</a>
+
+        <ul>
+          <li><a href="dojo.observations.html#dojo.observations.AAVEv3Observation.market_agent_tokens">(dojo.observations.AAVEv3Observation method)</a>
+</li>
+          <li><a href="dojo.observations.html#dojo.observations.GmxV2Observation.market_agent_tokens">(dojo.observations.GmxV2Observation method)</a>
+</li>
+          <li><a href="dojo.observations.html#dojo.observations.uniswapV3.UniswapV3Observation.market_agent_tokens">(dojo.observations.uniswapV3.UniswapV3Observation method)</a>
+</li>
+          <li><a href="dojo.observations.html#dojo.observations.UniswapV3Observation.market_agent_tokens">(dojo.observations.UniswapV3Observation method)</a>
+</li>
+        </ul></li>
+        <li><a href="dojo.actions.html#dojo.actions.GmxDeposit.market_key">market_key (dojo.actions.GmxDeposit attribute)</a>
+
+        <ul>
+          <li><a href="dojo.actions.html#dojo.actions.GmxWithdrawal.market_key">(dojo.actions.GmxWithdrawal attribute)</a>
+</li>
+        </ul></li>
+        <li><a href="dojo.actions.html#dojo.actions.aaveV3.AAVEv3Borrow.mode">mode (dojo.actions.aaveV3.AAVEv3Borrow attribute)</a>
+
+        <ul>
+          <li><a href="dojo.actions.html#dojo.actions.aaveV3.AAVEv3BorrowToHealthFactor.mode">(dojo.actions.aaveV3.AAVEv3BorrowToHealthFactor attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.aaveV3.AAVEv3Repay.mode">(dojo.actions.aaveV3.AAVEv3Repay attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.aaveV3.AAVEv3RepayAll.mode">(dojo.actions.aaveV3.AAVEv3RepayAll attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.aaveV3.AAVEv3RepayToHealthFactor.mode">(dojo.actions.aaveV3.AAVEv3RepayToHealthFactor attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.AAVEv3Borrow.mode">(dojo.actions.AAVEv3Borrow attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.AAVEv3BorrowToHealthFactor.mode">(dojo.actions.AAVEv3BorrowToHealthFactor attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.AAVEv3Repay.mode">(dojo.actions.AAVEv3Repay attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.AAVEv3RepayAll.mode">(dojo.actions.AAVEv3RepayAll attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.AAVEv3RepayToHealthFactor.mode">(dojo.actions.AAVEv3RepayToHealthFactor attribute)</a>
+</li>
+        </ul></li>
+        <li><a href="dojo.actions.html#dojo.actions.aaveV3.AAVEv3FlashLoan.modes">modes (dojo.actions.aaveV3.AAVEv3FlashLoan attribute)</a>
+
+        <ul>
+          <li><a href="dojo.actions.html#dojo.actions.AAVEv3FlashLoan.modes">(dojo.actions.AAVEv3FlashLoan attribute)</a>
+</li>
+        </ul></li>
+        <li>
+    module
+
+        <ul>
+          <li><a href="dojo.html#module-dojo">dojo</a>
+</li>
+          <li><a href="dojo.actions.html#module-dojo.actions">dojo.actions</a>
+</li>
+          <li><a href="dojo.actions.html#module-dojo.actions.aaveV3">dojo.actions.aaveV3</a>
+</li>
+          <li><a href="dojo.actions.html#module-dojo.actions.base_action">dojo.actions.base_action</a>
+</li>
+          <li><a href="dojo.actions.html#module-dojo.actions.uniswapV3">dojo.actions.uniswapV3</a>
+</li>
+          <li><a href="dojo.agents.html#module-dojo.agents">dojo.agents</a>
+</li>
+          <li><a href="dojo.agents.html#module-dojo.agents.base_agent">dojo.agents.base_agent</a>
+</li>
+          <li><a href="dojo.agents.html#module-dojo.agents.dummy_agent">dojo.agents.dummy_agent</a>
+</li>
+          <li><a href="dojo.agents.html#module-dojo.agents.market_agent">dojo.agents.market_agent</a>
+</li>
+          <li><a href="dojo.common.html#module-dojo.common">dojo.common</a>
+</li>
+          <li><a href="dojo.common.html#module-dojo.common.utils">dojo.common.utils</a>
+</li>
+          <li><a href="dojo.environments.html#module-dojo.environments">dojo.environments</a>
+</li>
+          <li><a href="dojo.environments.html#module-dojo.environments.aaveV3">dojo.environments.aaveV3</a>
+</li>
+          <li><a href="dojo.environments.html#module-dojo.environments.base_environments">dojo.environments.base_environments</a>
+</li>
+          <li><a href="dojo.environments.html#module-dojo.environments.uniswapV3">dojo.environments.uniswapV3</a>
+</li>
+          <li><a href="dojo.observations.html#module-dojo.observations">dojo.observations</a>
+</li>
+          <li><a href="dojo.observations.html#module-dojo.observations.aaveV3">dojo.observations.aaveV3</a>
+</li>
+          <li><a href="dojo.observations.html#module-dojo.observations.base_observation">dojo.observations.base_observation</a>
+</li>
+          <li><a href="dojo.observations.html#module-dojo.observations.uniswapV3">dojo.observations.uniswapV3</a>
+</li>
+          <li><a href="dojo.policies.html#module-dojo.policies">dojo.policies</a>
+</li>
+          <li><a href="dojo.policies.html#module-dojo.policies.base_policy">dojo.policies.base_policy</a>
+</li>
+          <li><a href="dojo.runners.html#module-dojo.runners">dojo.runners</a>
+</li>
+          <li><a href="dojo.runners.html#module-dojo.runners.backtest_runner">dojo.runners.backtest_runner</a>
+</li>
+          <li><a href="dojo.runners.html#module-dojo.runners.live_runner">dojo.runners.live_runner</a>
+</li>
+        </ul></li>
+    </ul></td>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="dojo.runners.html#dojo.runners.monitor_run">monitor_run() (in module dojo.runners)</a>
+</li>
+    </ul></td>
+  </tr></table>
+</section>
+
+<section id="N" class="genindex-section">
+  <h2>N</h2>
+  <table style="width: 100%" class="indextable genindextable"><tr>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="dojo.observations.html#dojo.observations.uniswapV3.UniswapV3Observation.nft_position_info">nft_position_info() (dojo.observations.uniswapV3.UniswapV3Observation method)</a>
+
+        <ul>
+          <li><a href="dojo.observations.html#dojo.observations.UniswapV3Observation.nft_position_info">(dojo.observations.UniswapV3Observation method)</a>
+</li>
+        </ul></li>
+        <li><a href="dojo.observations.html#dojo.observations.uniswapV3.UniswapV3Observation.nft_positions">nft_positions() (dojo.observations.uniswapV3.UniswapV3Observation method)</a>
+
+        <ul>
+          <li><a href="dojo.observations.html#dojo.observations.UniswapV3Observation.nft_positions">(dojo.observations.UniswapV3Observation method)</a>
+</li>
+        </ul></li>
+    </ul></td>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="dojo.environments.html#dojo.environments.uniswapV3.UniswapV3MarketModelType.NO_MARKET">NO_MARKET (dojo.environments.uniswapV3.UniswapV3MarketModelType attribute)</a>
+</li>
+        <li><a href="dojo.actions.html#dojo.actions.SleepAction.number_of_blocks_to_sleep">number_of_blocks_to_sleep (dojo.actions.SleepAction attribute)</a>
+</li>
+    </ul></td>
+  </tr></table>
+</section>
+
+<section id="O" class="genindex-section">
+  <h2>O</h2>
+  <table style="width: 100%" class="indextable genindextable"><tr>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="dojo.actions.html#dojo.actions.GmxDeposit.observations">observations (dojo.actions.GmxDeposit attribute)</a>
+
+        <ul>
+          <li><a href="dojo.actions.html#dojo.actions.GmxSwapOrder.observations">(dojo.actions.GmxSwapOrder attribute)</a>
+</li>
+        </ul></li>
+        <li><a href="dojo.actions.html#dojo.actions.aaveV3.AAVEv3Borrow.onBehalfOf">onBehalfOf (dojo.actions.aaveV3.AAVEv3Borrow attribute)</a>
+
+        <ul>
+          <li><a href="dojo.actions.html#dojo.actions.aaveV3.AAVEv3Supply.onBehalfOf">(dojo.actions.aaveV3.AAVEv3Supply attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.AAVEv3Borrow.onBehalfOf">(dojo.actions.AAVEv3Borrow attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.AAVEv3Supply.onBehalfOf">(dojo.actions.AAVEv3Supply attribute)</a>
+</li>
+        </ul></li>
+        <li><a href="dojo.agents.html#dojo.agents.base_agent.BaseAgent.original_address">original_address (dojo.agents.base_agent.BaseAgent attribute)</a>
+</li>
+        <li><a href="dojo.actions.html#dojo.actions.GmxSwapOrder.out_token">out_token (dojo.actions.GmxSwapOrder attribute)</a>
+</li>
+    </ul></td>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="dojo.actions.html#dojo.actions.uniswapV3.UniswapV3IncreaseLiquidity.owner">owner (dojo.actions.uniswapV3.UniswapV3IncreaseLiquidity attribute)</a>
+
+        <ul>
+          <li><a href="dojo.actions.html#dojo.actions.uniswapV3.UniswapV3ProvideQuantities.owner">(dojo.actions.uniswapV3.UniswapV3ProvideQuantities attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.uniswapV3.UniswapV3Quote.owner">(dojo.actions.uniswapV3.UniswapV3Quote attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.uniswapV3.UniswapV3WithdrawLiquidity.owner">(dojo.actions.uniswapV3.UniswapV3WithdrawLiquidity attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.UniswapV3IncreaseLiquidity.owner">(dojo.actions.UniswapV3IncreaseLiquidity attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.UniswapV3ProvideQuantities.owner">(dojo.actions.UniswapV3ProvideQuantities attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.UniswapV3Quote.owner">(dojo.actions.UniswapV3Quote attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.UniswapV3WithdrawLiquidity.owner">(dojo.actions.UniswapV3WithdrawLiquidity attribute)</a>
+</li>
+        </ul></li>
+    </ul></td>
+  </tr></table>
+</section>
+
+<section id="P" class="genindex-section">
+  <h2>P</h2>
+  <table style="width: 100%" class="indextable genindextable"><tr>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="dojo.actions.html#dojo.actions.aaveV3.AAVEv3FlashLoan.params">params (dojo.actions.aaveV3.AAVEv3FlashLoan attribute)</a>
+
+        <ul>
+          <li><a href="dojo.actions.html#dojo.actions.aaveV3.AAVEv3FlashLoanSimple.params">(dojo.actions.aaveV3.AAVEv3FlashLoanSimple attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.AAVEv3FlashLoan.params">(dojo.actions.AAVEv3FlashLoan attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.AAVEv3FlashLoanSimple.params">(dojo.actions.AAVEv3FlashLoanSimple attribute)</a>
+</li>
+        </ul></li>
+        <li><a href="dojo.common.html#dojo.common.Chain.POLYGON">POLYGON (dojo.common.Chain attribute)</a>
+</li>
+        <li><a href="dojo.actions.html#dojo.actions.uniswapV3.LowLevelUniswapV3Trade.pool">pool (dojo.actions.uniswapV3.LowLevelUniswapV3Trade attribute)</a>
+
+        <ul>
+          <li><a href="dojo.actions.html#dojo.actions.uniswapV3.UniswapV3Collect.pool">(dojo.actions.uniswapV3.UniswapV3Collect attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.uniswapV3.UniswapV3CollectFull.pool">(dojo.actions.uniswapV3.UniswapV3CollectFull attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.uniswapV3.UniswapV3IncreaseLiquidity.pool">(dojo.actions.uniswapV3.UniswapV3IncreaseLiquidity attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.uniswapV3.UniswapV3ProvideLiquidity.pool">(dojo.actions.uniswapV3.UniswapV3ProvideLiquidity attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.uniswapV3.UniswapV3ProvideQuantities.pool">(dojo.actions.uniswapV3.UniswapV3ProvideQuantities attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.uniswapV3.UniswapV3Quote.pool">(dojo.actions.uniswapV3.UniswapV3Quote attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.uniswapV3.UniswapV3SetFeeProtocol.pool">(dojo.actions.uniswapV3.UniswapV3SetFeeProtocol attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.uniswapV3.UniswapV3Trade.pool">(dojo.actions.uniswapV3.UniswapV3Trade attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.uniswapV3.UniswapV3TradeToTickRange.pool">(dojo.actions.uniswapV3.UniswapV3TradeToTickRange attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.UniswapV3Collect.pool">(dojo.actions.UniswapV3Collect attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.UniswapV3CollectFull.pool">(dojo.actions.UniswapV3CollectFull attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.UniswapV3IncreaseLiquidity.pool">(dojo.actions.UniswapV3IncreaseLiquidity attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.UniswapV3ProvideLiquidity.pool">(dojo.actions.UniswapV3ProvideLiquidity attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.UniswapV3ProvideQuantities.pool">(dojo.actions.UniswapV3ProvideQuantities attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.UniswapV3Quote.pool">(dojo.actions.UniswapV3Quote attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.UniswapV3SetFeeProtocol.pool">(dojo.actions.UniswapV3SetFeeProtocol attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.UniswapV3Trade.pool">(dojo.actions.UniswapV3Trade attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.UniswapV3TradeToTickRange.pool">(dojo.actions.UniswapV3TradeToTickRange attribute)</a>
+</li>
+        </ul></li>
+        <li><a href="dojo.observations.html#dojo.observations.uniswapV3.UniswapV3Observation.pool_fee">pool_fee() (dojo.observations.uniswapV3.UniswapV3Observation method)</a>
+
+        <ul>
+          <li><a href="dojo.observations.html#dojo.observations.UniswapV3Observation.pool_fee">(dojo.observations.UniswapV3Observation method)</a>
+</li>
+        </ul></li>
+        <li><a href="dojo.observations.html#dojo.observations.uniswapV3.UniswapV3Observation.pool_positions">pool_positions() (dojo.observations.uniswapV3.UniswapV3Observation method)</a>
+
+        <ul>
+          <li><a href="dojo.observations.html#dojo.observations.UniswapV3Observation.pool_positions">(dojo.observations.UniswapV3Observation method)</a>
+</li>
+        </ul></li>
+        <li><a href="dojo.observations.html#dojo.observations.uniswapV3.UniswapV3Observation.pool_token_addresses">pool_token_addresses() (dojo.observations.uniswapV3.UniswapV3Observation method)</a>
+
+        <ul>
+          <li><a href="dojo.observations.html#dojo.observations.UniswapV3Observation.pool_token_addresses">(dojo.observations.UniswapV3Observation method)</a>
+</li>
+        </ul></li>
+    </ul></td>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="dojo.observations.html#dojo.observations.uniswapV3.UniswapV3Observation.pool_tokens">pool_tokens() (dojo.observations.uniswapV3.UniswapV3Observation method)</a>
+
+        <ul>
+          <li><a href="dojo.observations.html#dojo.observations.UniswapV3Observation.pool_tokens">(dojo.observations.UniswapV3Observation method)</a>
+</li>
+        </ul></li>
+        <li><a href="dojo.agents.html#dojo.agents.base_agent.BaseAgent.portfolio">portfolio() (dojo.agents.base_agent.BaseAgent method)</a>
+
+        <ul>
+          <li><a href="dojo.agents.html#dojo.agents.BaseAgent.portfolio">(dojo.agents.BaseAgent method)</a>
+</li>
+        </ul></li>
+        <li><a href="dojo.actions.html#dojo.actions.uniswapV3.UniswapV3BurnNew.position_id">position_id (dojo.actions.uniswapV3.UniswapV3BurnNew attribute)</a>
+
+        <ul>
+          <li><a href="dojo.actions.html#dojo.actions.uniswapV3.UniswapV3CollectFull.position_id">(dojo.actions.uniswapV3.UniswapV3CollectFull attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.uniswapV3.UniswapV3IncreaseLiquidity.position_id">(dojo.actions.uniswapV3.UniswapV3IncreaseLiquidity attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.uniswapV3.UniswapV3LiquidatePosition.position_id">(dojo.actions.uniswapV3.UniswapV3LiquidatePosition attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.uniswapV3.UniswapV3WithdrawLiquidity.position_id">(dojo.actions.uniswapV3.UniswapV3WithdrawLiquidity attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.UniswapV3BurnNew.position_id">(dojo.actions.UniswapV3BurnNew attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.UniswapV3CollectFull.position_id">(dojo.actions.UniswapV3CollectFull attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.UniswapV3IncreaseLiquidity.position_id">(dojo.actions.UniswapV3IncreaseLiquidity attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.UniswapV3LiquidatePosition.position_id">(dojo.actions.UniswapV3LiquidatePosition attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.UniswapV3WithdrawLiquidity.position_id">(dojo.actions.UniswapV3WithdrawLiquidity attribute)</a>
+</li>
+        </ul></li>
+        <li><a href="dojo.policies.html#dojo.policies.base_policy.BasePolicy.predict">predict() (dojo.policies.base_policy.BasePolicy method)</a>
+
+        <ul>
+          <li><a href="dojo.policies.html#dojo.policies.BasePolicy.predict">(dojo.policies.BasePolicy method)</a>
+</li>
+          <li><a href="dojo.policies.html#dojo.policies.DoNothingPolicy.predict">(dojo.policies.DoNothingPolicy method)</a>
+</li>
+        </ul></li>
+        <li><a href="dojo.observations.html#dojo.observations.uniswapV3.UniswapV3Observation.price">price() (dojo.observations.uniswapV3.UniswapV3Observation method)</a>
+
+        <ul>
+          <li><a href="dojo.observations.html#dojo.observations.UniswapV3Observation.price">(dojo.observations.UniswapV3Observation method)</a>
+</li>
+        </ul></li>
+        <li><a href="dojo.actions.html#dojo.actions.uniswapV3.UniswapV3Trade.price_limit">price_limit (dojo.actions.uniswapV3.UniswapV3Trade attribute)</a>
+
+        <ul>
+          <li><a href="dojo.actions.html#dojo.actions.UniswapV3Trade.price_limit">(dojo.actions.UniswapV3Trade attribute)</a>
+</li>
+        </ul></li>
+        <li><a href="dojo.observations.html#dojo.observations.uniswapV3.price_to_active_tick">price_to_active_tick() (in module dojo.observations.uniswapV3)</a>
+</li>
+        <li><a href="dojo.observations.html#dojo.observations.uniswapV3.price_to_sqrt_priceX96">price_to_sqrt_priceX96() (in module dojo.observations.uniswapV3)</a>
+</li>
+        <li><a href="dojo.observations.html#dojo.observations.uniswapV3.price_to_tick">price_to_tick() (in module dojo.observations.uniswapV3)</a>
+</li>
+        <li><a href="dojo.observations.html#dojo.observations.uniswapV3.price_to_tick_range">price_to_tick_range() (in module dojo.observations.uniswapV3)</a>
+</li>
+        <li><a href="dojo.observations.html#dojo.observations.uniswapV3.price_wrt_range">price_wrt_range() (in module dojo.observations.uniswapV3)</a>
+</li>
+        <li><a href="dojo.observations.html#dojo.observations.uniswapV3.UniswapV3Observation.protocol_fees">protocol_fees() (dojo.observations.uniswapV3.UniswapV3Observation method)</a>
+
+        <ul>
+          <li><a href="dojo.observations.html#dojo.observations.UniswapV3Observation.protocol_fees">(dojo.observations.UniswapV3Observation method)</a>
+</li>
+        </ul></li>
+    </ul></td>
+  </tr></table>
+</section>
+
+<section id="Q" class="genindex-section">
+  <h2>Q</h2>
+  <table style="width: 100%" class="indextable genindextable"><tr>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="dojo.actions.html#dojo.actions.uniswapV3.LowLevelUniswapV3Trade.quantities">quantities (dojo.actions.uniswapV3.LowLevelUniswapV3Trade attribute)</a>
+
+        <ul>
+          <li><a href="dojo.actions.html#dojo.actions.uniswapV3.UniswapV3Collect.quantities">(dojo.actions.uniswapV3.UniswapV3Collect attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.uniswapV3.UniswapV3Quote.quantities">(dojo.actions.uniswapV3.UniswapV3Quote attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.uniswapV3.UniswapV3SetFeeProtocol.quantities">(dojo.actions.uniswapV3.UniswapV3SetFeeProtocol attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.uniswapV3.UniswapV3Trade.quantities">(dojo.actions.uniswapV3.UniswapV3Trade attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.uniswapV3.UniswapV3TradeToTickRange.quantities">(dojo.actions.uniswapV3.UniswapV3TradeToTickRange attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.UniswapV3Collect.quantities">(dojo.actions.UniswapV3Collect attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.UniswapV3Quote.quantities">(dojo.actions.UniswapV3Quote attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.UniswapV3SetFeeProtocol.quantities">(dojo.actions.UniswapV3SetFeeProtocol attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.UniswapV3Trade.quantities">(dojo.actions.UniswapV3Trade attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.UniswapV3TradeToTickRange.quantities">(dojo.actions.UniswapV3TradeToTickRange attribute)</a>
+</li>
+        </ul></li>
+    </ul></td>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="dojo.agents.html#dojo.agents.base_agent.BaseAgent.quantity">quantity() (dojo.agents.base_agent.BaseAgent method)</a>
+
+        <ul>
+          <li><a href="dojo.agents.html#dojo.agents.BaseAgent.quantity">(dojo.agents.BaseAgent method)</a>
+</li>
+        </ul></li>
+    </ul></td>
+  </tr></table>
+</section>
+
+<section id="R" class="genindex-section">
+  <h2>R</h2>
+  <table style="width: 100%" class="indextable genindextable"><tr>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="dojo.actions.html#dojo.actions.aaveV3.AAVEv3FullLiquidation.receiveAToken">receiveAToken (dojo.actions.aaveV3.AAVEv3FullLiquidation attribute)</a>
+
+        <ul>
+          <li><a href="dojo.actions.html#dojo.actions.aaveV3.AAVEv3Liquidation.receiveAToken">(dojo.actions.aaveV3.AAVEv3Liquidation attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.AAVEv3FullLiquidation.receiveAToken">(dojo.actions.AAVEv3FullLiquidation attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.AAVEv3Liquidation.receiveAToken">(dojo.actions.AAVEv3Liquidation attribute)</a>
+</li>
+        </ul></li>
+        <li><a href="dojo.actions.html#dojo.actions.aaveV3.AAVEv3FlashLoan.receiver">receiver (dojo.actions.aaveV3.AAVEv3FlashLoan attribute)</a>
+
+        <ul>
+          <li><a href="dojo.actions.html#dojo.actions.aaveV3.AAVEv3FlashLoanSimple.receiver">(dojo.actions.aaveV3.AAVEv3FlashLoanSimple attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.AAVEv3FlashLoan.receiver">(dojo.actions.AAVEv3FlashLoan attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.AAVEv3FlashLoanSimple.receiver">(dojo.actions.AAVEv3FlashLoanSimple attribute)</a>
+</li>
+        </ul></li>
+        <li><a href="dojo.environments.html#dojo.environments.aaveV3.AaveV3MarketModelType.REPLAY">REPLAY (dojo.environments.aaveV3.AaveV3MarketModelType attribute)</a>
+
+        <ul>
+          <li><a href="dojo.environments.html#dojo.environments.uniswapV3.UniswapV3MarketModelType.REPLAY">(dojo.environments.uniswapV3.UniswapV3MarketModelType attribute)</a>
+</li>
+        </ul></li>
+    </ul></td>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="dojo.environments.html#dojo.environments.uniswapV3.UniswapV3MarketModelType.REPLAY_TRADES_ONLY">REPLAY_TRADES_ONLY (dojo.environments.uniswapV3.UniswapV3MarketModelType attribute)</a>
+</li>
+        <li><a href="dojo.actions.html#dojo.actions.aaveV3.AAVEv3SetUserUseReserveAsCollateral.reserve">reserve (dojo.actions.aaveV3.AAVEv3SetUserUseReserveAsCollateral attribute)</a>
+</li>
+        <li><a href="dojo.observations.html#dojo.observations.aaveV3.ReserveConfig.reserve_factor">reserve_factor (dojo.observations.aaveV3.ReserveConfig attribute)</a>
+</li>
+        <li><a href="dojo.observations.html#dojo.observations.aaveV3.ReserveConfig">ReserveConfig (class in dojo.observations.aaveV3)</a>
+</li>
+        <li><a href="dojo.observations.html#dojo.observations.aaveV3.ReserveConfig.reserved">reserved (dojo.observations.aaveV3.ReserveConfig attribute)</a>
+</li>
+        <li><a href="dojo.observations.html#dojo.observations.aaveV3.ReserveData">ReserveData (class in dojo.observations.aaveV3)</a>
+</li>
+        <li><a href="dojo.agents.html#dojo.agents.base_agent.BaseAgent.reward">reward() (dojo.agents.base_agent.BaseAgent method)</a>
+
+        <ul>
+          <li><a href="dojo.agents.html#dojo.agents.BaseAgent.reward">(dojo.agents.BaseAgent method)</a>
+</li>
+        </ul></li>
+        <li><a href="dojo.common.html#dojo.common.utils.round_to_nearest_n">round_to_nearest_n() (in module dojo.common.utils)</a>
+</li>
+    </ul></td>
+  </tr></table>
+</section>
+
+<section id="S" class="genindex-section">
+  <h2>S</h2>
+  <table style="width: 100%" class="indextable genindextable"><tr>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="dojo.agents.html#dojo.agents.base_agent.BaseAgent.set_backend">set_backend() (dojo.agents.base_agent.BaseAgent method)</a>
+
+        <ul>
+          <li><a href="dojo.agents.html#dojo.agents.BaseAgent.set_backend">(dojo.agents.BaseAgent method)</a>
+</li>
+        </ul></li>
+        <li><a href="dojo.agents.html#dojo.agents.base_agent.BaseAgent.set_id">set_id() (dojo.agents.base_agent.BaseAgent method)</a>
+
+        <ul>
+          <li><a href="dojo.agents.html#dojo.agents.BaseAgent.set_id">(dojo.agents.BaseAgent method)</a>
+</li>
+        </ul></li>
+        <li><a href="dojo.observations.html#dojo.observations.GmxV2Observation.set_oracle_prices">set_oracle_prices() (dojo.observations.GmxV2Observation method)</a>
+</li>
+        <li><a href="dojo.agents.html#dojo.agents.base_agent.BaseAgent.setup">setup() (dojo.agents.base_agent.BaseAgent method)</a>
+
+        <ul>
+          <li><a href="dojo.agents.html#dojo.agents.BaseAgent.setup">(dojo.agents.BaseAgent method)</a>
+</li>
+        </ul></li>
+        <li><a href="dojo.environments.html#dojo.environments.uniswapV3.UniswapV3Env.setup_contracts_live">setup_contracts_live() (dojo.environments.uniswapV3.UniswapV3Env method)</a>
+
+        <ul>
+          <li><a href="dojo.environments.html#dojo.environments.UniswapV3Env.setup_contracts_live">(dojo.environments.UniswapV3Env method)</a>
+</li>
+        </ul></li>
+        <li><a href="dojo.agents.html#dojo.agents.base_agent.BaseAgent.setup_live">setup_live() (dojo.agents.base_agent.BaseAgent method)</a>
+
+        <ul>
+          <li><a href="dojo.agents.html#dojo.agents.BaseAgent.setup_live">(dojo.agents.BaseAgent method)</a>
+</li>
+        </ul></li>
+        <li><a href="dojo.observations.html#dojo.observations.GmxV2Observation.short_token_price">short_token_price() (dojo.observations.GmxV2Observation method)</a>
+</li>
+    </ul></td>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="dojo.actions.html#dojo.actions.GmxDeposit.short_token_usd">short_token_usd (dojo.actions.GmxDeposit attribute)</a>
+</li>
+        <li><a href="dojo.actions.html#dojo.actions.SleepAction">SleepAction (class in dojo.actions)</a>
+</li>
+        <li><a href="dojo.actions.html#dojo.actions.GmxSwapOrder.slippage">slippage (dojo.actions.GmxSwapOrder attribute)</a>
+</li>
+        <li><a href="dojo.observations.html#dojo.observations.uniswapV3.UniswapV3Observation.slot0">slot0() (dojo.observations.uniswapV3.UniswapV3Observation method)</a>
+
+        <ul>
+          <li><a href="dojo.observations.html#dojo.observations.UniswapV3Observation.slot0">(dojo.observations.UniswapV3Observation method)</a>
+</li>
+        </ul></li>
+        <li><a href="dojo.observations.html#dojo.observations.aaveV3.split_configuration_data">split_configuration_data() (in module dojo.observations.aaveV3)</a>
+</li>
+        <li><a href="dojo.actions.html#dojo.actions.uniswapV3.LowLevelUniswapV3Trade.sqrt_price_limit_x96">sqrt_price_limit_x96 (dojo.actions.uniswapV3.LowLevelUniswapV3Trade attribute)</a>
+</li>
+        <li><a href="dojo.observations.html#dojo.observations.uniswapV3.sqrt_priceX96_to_price">sqrt_priceX96_to_price() (in module dojo.observations.uniswapV3)</a>
+</li>
+        <li><a href="dojo.observations.html#dojo.observations.uniswapV3.sqrt_priceX96_to_tick">sqrt_priceX96_to_tick() (in module dojo.observations.uniswapV3)</a>
+</li>
+        <li><a href="dojo.observations.html#dojo.observations.uniswapV3.sqrt_priceX96_to_tick_range">sqrt_priceX96_to_tick_range() (in module dojo.observations.uniswapV3)</a>
+</li>
+        <li><a href="dojo.observations.html#dojo.observations.aaveV3.ReserveConfig.stable_borrowing_enabled">stable_borrowing_enabled (dojo.observations.aaveV3.ReserveConfig attribute)</a>
+</li>
+        <li><a href="dojo.observations.html#dojo.observations.aaveV3.ReserveData.stable_debt_token_address">stable_debt_token_address (dojo.observations.aaveV3.ReserveData attribute)</a>
+</li>
+        <li><a href="dojo.observations.html#dojo.observations.aaveV3.ReserveConfig.supply_cap">supply_cap (dojo.observations.aaveV3.ReserveConfig attribute)</a>
+</li>
+    </ul></td>
+  </tr></table>
+</section>
+
+<section id="T" class="genindex-section">
+  <h2>T</h2>
+  <table style="width: 100%" class="indextable genindextable"><tr>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="dojo.common.html#dojo.common.utils.test_round_to_nearest_n">test_round_to_nearest_n() (in module dojo.common.utils)</a>
+</li>
+        <li><a href="dojo.observations.html#dojo.observations.uniswapV3.UniswapV3Observation.tick_liquidities">tick_liquidities() (dojo.observations.uniswapV3.UniswapV3Observation method)</a>
+
+        <ul>
+          <li><a href="dojo.observations.html#dojo.observations.UniswapV3Observation.tick_liquidities">(dojo.observations.UniswapV3Observation method)</a>
+</li>
+        </ul></li>
+        <li><a href="dojo.actions.html#dojo.actions.uniswapV3.UniswapV3Collect.tick_range">tick_range (dojo.actions.uniswapV3.UniswapV3Collect attribute)</a>
+
+        <ul>
+          <li><a href="dojo.actions.html#dojo.actions.uniswapV3.UniswapV3ProvideLiquidity.tick_range">(dojo.actions.uniswapV3.UniswapV3ProvideLiquidity attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.uniswapV3.UniswapV3ProvideQuantities.tick_range">(dojo.actions.uniswapV3.UniswapV3ProvideQuantities attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.uniswapV3.UniswapV3Quote.tick_range">(dojo.actions.uniswapV3.UniswapV3Quote attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.uniswapV3.UniswapV3TradeToTickRange.tick_range">(dojo.actions.uniswapV3.UniswapV3TradeToTickRange attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.UniswapV3Collect.tick_range">(dojo.actions.UniswapV3Collect attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.UniswapV3ProvideLiquidity.tick_range">(dojo.actions.UniswapV3ProvideLiquidity attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.UniswapV3ProvideQuantities.tick_range">(dojo.actions.UniswapV3ProvideQuantities attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.UniswapV3Quote.tick_range">(dojo.actions.UniswapV3Quote attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.UniswapV3TradeToTickRange.tick_range">(dojo.actions.UniswapV3TradeToTickRange attribute)</a>
+</li>
+        </ul></li>
+        <li><a href="dojo.observations.html#dojo.observations.uniswapV3.UniswapV3Observation.tick_spacing">tick_spacing() (dojo.observations.uniswapV3.UniswapV3Observation method)</a>
+
+        <ul>
+          <li><a href="dojo.observations.html#dojo.observations.UniswapV3Observation.tick_spacing">(dojo.observations.UniswapV3Observation method)</a>
+</li>
+        </ul></li>
+        <li><a href="dojo.observations.html#dojo.observations.uniswapV3.tick_to_sqrt_priceX96">tick_to_sqrt_priceX96() (in module dojo.observations.uniswapV3)</a>
+</li>
+        <li><a href="dojo.observations.html#dojo.observations.uniswapV3.UniswapV3Observation.ticks">ticks() (dojo.observations.uniswapV3.UniswapV3Observation method)</a>
+
+        <ul>
+          <li><a href="dojo.observations.html#dojo.observations.UniswapV3Observation.ticks">(dojo.observations.UniswapV3Observation method)</a>
+</li>
+        </ul></li>
+        <li><a href="dojo.common.html#dojo.common.time_to_block">time_to_block() (in module dojo.common)</a>
+</li>
+        <li><a href="dojo.actions.html#dojo.actions.aaveV3.AAVEv3Withdraw.to">to (dojo.actions.aaveV3.AAVEv3Withdraw attribute)</a>
+
+        <ul>
+          <li><a href="dojo.actions.html#dojo.actions.AAVEv3Withdraw.to">(dojo.actions.AAVEv3Withdraw attribute)</a>
+</li>
+        </ul></li>
+        <li><a href="dojo.actions.html#dojo.actions.aaveV3.AAVEv3Borrow.token">token (dojo.actions.aaveV3.AAVEv3Borrow attribute)</a>
+
+        <ul>
+          <li><a href="dojo.actions.html#dojo.actions.aaveV3.AAVEv3BorrowToHealthFactor.token">(dojo.actions.aaveV3.AAVEv3BorrowToHealthFactor attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.aaveV3.AAVEv3FlashLoanSimple.token">(dojo.actions.aaveV3.AAVEv3FlashLoanSimple attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.aaveV3.AAVEv3Repay.token">(dojo.actions.aaveV3.AAVEv3Repay attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.aaveV3.AAVEv3RepayAll.token">(dojo.actions.aaveV3.AAVEv3RepayAll attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.aaveV3.AAVEv3RepayToHealthFactor.token">(dojo.actions.aaveV3.AAVEv3RepayToHealthFactor attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.aaveV3.AAVEv3Supply.token">(dojo.actions.aaveV3.AAVEv3Supply attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.aaveV3.AAVEv3Withdraw.token">(dojo.actions.aaveV3.AAVEv3Withdraw attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.aaveV3.AAVEv3WithdrawAll.token">(dojo.actions.aaveV3.AAVEv3WithdrawAll attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.AAVEv3Borrow.token">(dojo.actions.AAVEv3Borrow attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.AAVEv3BorrowToHealthFactor.token">(dojo.actions.AAVEv3BorrowToHealthFactor attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.AAVEv3FlashLoanSimple.token">(dojo.actions.AAVEv3FlashLoanSimple attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.AAVEv3Repay.token">(dojo.actions.AAVEv3Repay attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.AAVEv3RepayAll.token">(dojo.actions.AAVEv3RepayAll attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.AAVEv3RepayToHealthFactor.token">(dojo.actions.AAVEv3RepayToHealthFactor attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.AAVEv3Supply.token">(dojo.actions.AAVEv3Supply attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.AAVEv3Withdraw.token">(dojo.actions.AAVEv3Withdraw attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.AAVEv3WithdrawAll.token">(dojo.actions.AAVEv3WithdrawAll attribute)</a>
+</li>
+        </ul></li>
+    </ul></td>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="dojo.observations.html#dojo.observations.uniswapV3.UniswapV3Observation.token_addresses">token_addresses() (dojo.observations.uniswapV3.UniswapV3Observation method)</a>
+
+        <ul>
+          <li><a href="dojo.observations.html#dojo.observations.UniswapV3Observation.token_addresses">(dojo.observations.UniswapV3Observation method)</a>
+</li>
+        </ul></li>
+        <li><a href="dojo.actions.html#dojo.actions.aaveV3.AAVEv3FlashLoan.tokens">tokens (dojo.actions.aaveV3.AAVEv3FlashLoan attribute)</a>
+
+        <ul>
+          <li><a href="dojo.actions.html#dojo.actions.aaveV3.AAVEv3MintToTreasury.tokens">(dojo.actions.aaveV3.AAVEv3MintToTreasury attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.AAVEv3FlashLoan.tokens">(dojo.actions.AAVEv3FlashLoan attribute)</a>
+</li>
+        </ul></li>
+        <li><a href="dojo.observations.html#dojo.observations.aaveV3.AAVEv3Observation.tokens">tokens() (dojo.observations.aaveV3.AAVEv3Observation method)</a>
+
+        <ul>
+          <li><a href="dojo.observations.html#dojo.observations.AAVEv3Observation.tokens">(dojo.observations.AAVEv3Observation method)</a>
+</li>
+          <li><a href="dojo.observations.html#dojo.observations.GmxV2Observation.tokens">(dojo.observations.GmxV2Observation method)</a>
+</li>
+          <li><a href="dojo.observations.html#dojo.observations.uniswapV3.UniswapV3Observation.tokens">(dojo.observations.uniswapV3.UniswapV3Observation method)</a>
+</li>
+          <li><a href="dojo.observations.html#dojo.observations.UniswapV3Observation.tokens">(dojo.observations.UniswapV3Observation method)</a>
+</li>
+        </ul></li>
+        <li><a href="dojo.observations.html#dojo.observations.GmxV2Observation.total_trader_pnl">total_trader_pnl() (dojo.observations.GmxV2Observation method)</a>
+</li>
+        <li><a href="dojo.agents.html#dojo.agents.UniswapV3Agent.total_wealth">total_wealth() (dojo.agents.UniswapV3Agent method)</a>
+</li>
+        <li><a href="dojo.observations.html#dojo.observations.aaveV3.UserAccountData.totalCollateral">totalCollateral (dojo.observations.aaveV3.UserAccountData attribute)</a>
+</li>
+        <li><a href="dojo.observations.html#dojo.observations.aaveV3.UserAccountData.totalDebt">totalDebt (dojo.observations.aaveV3.UserAccountData attribute)</a>
+</li>
+    </ul></td>
+  </tr></table>
+</section>
+
+<section id="U" class="genindex-section">
+  <h2>U</h2>
+  <table style="width: 100%" class="indextable genindextable"><tr>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="dojo.observations.html#dojo.observations.aaveV3.ReserveData.unbacked">unbacked (dojo.observations.aaveV3.ReserveData attribute)</a>
+</li>
+        <li><a href="dojo.observations.html#dojo.observations.aaveV3.ReserveConfig.unbacked_mint_cap">unbacked_mint_cap (dojo.observations.aaveV3.ReserveConfig attribute)</a>
+</li>
+        <li><a href="dojo.agents.html#dojo.agents.UniswapV3Agent">UniswapV3Agent (class in dojo.agents)</a>
+</li>
+        <li><a href="dojo.actions.html#dojo.actions.UniswapV3BurnNew">UniswapV3BurnNew (class in dojo.actions)</a>
+
+        <ul>
+          <li><a href="dojo.actions.html#dojo.actions.uniswapV3.UniswapV3BurnNew">(class in dojo.actions.uniswapV3)</a>
+</li>
+        </ul></li>
+        <li><a href="dojo.actions.html#dojo.actions.UniswapV3Collect">UniswapV3Collect (class in dojo.actions)</a>
+
+        <ul>
+          <li><a href="dojo.actions.html#dojo.actions.uniswapV3.UniswapV3Collect">(class in dojo.actions.uniswapV3)</a>
+</li>
+        </ul></li>
+        <li><a href="dojo.actions.html#dojo.actions.UniswapV3CollectFull">UniswapV3CollectFull (class in dojo.actions)</a>
+
+        <ul>
+          <li><a href="dojo.actions.html#dojo.actions.uniswapV3.UniswapV3CollectFull">(class in dojo.actions.uniswapV3)</a>
+</li>
+        </ul></li>
+        <li><a href="dojo.environments.html#dojo.environments.UniswapV3Env">UniswapV3Env (class in dojo.environments)</a>
+
+        <ul>
+          <li><a href="dojo.environments.html#dojo.environments.uniswapV3.UniswapV3Env">(class in dojo.environments.uniswapV3)</a>
+</li>
+        </ul></li>
+        <li><a href="dojo.actions.html#dojo.actions.UniswapV3IncreaseLiquidity">UniswapV3IncreaseLiquidity (class in dojo.actions)</a>
+
+        <ul>
+          <li><a href="dojo.actions.html#dojo.actions.uniswapV3.UniswapV3IncreaseLiquidity">(class in dojo.actions.uniswapV3)</a>
+</li>
+        </ul></li>
+        <li><a href="dojo.actions.html#dojo.actions.UniswapV3LiquidatePosition">UniswapV3LiquidatePosition (class in dojo.actions)</a>
+
+        <ul>
+          <li><a href="dojo.actions.html#dojo.actions.uniswapV3.UniswapV3LiquidatePosition">(class in dojo.actions.uniswapV3)</a>
+</li>
+        </ul></li>
+        <li><a href="dojo.environments.html#dojo.environments.uniswapV3.UniswapV3MarketModelType">UniswapV3MarketModelType (class in dojo.environments.uniswapV3)</a>
+</li>
+        <li><a href="dojo.observations.html#dojo.observations.UniswapV3Observation">UniswapV3Observation (class in dojo.observations)</a>
+
+        <ul>
+          <li><a href="dojo.observations.html#dojo.observations.uniswapV3.UniswapV3Observation">(class in dojo.observations.uniswapV3)</a>
+</li>
+        </ul></li>
+        <li><a href="dojo.policies.html#dojo.policies.UniswapV3Policy">UniswapV3Policy (class in dojo.policies)</a>
+</li>
+        <li><a href="dojo.actions.html#dojo.actions.UniswapV3ProvideLiquidity">UniswapV3ProvideLiquidity (class in dojo.actions)</a>
+
+        <ul>
+          <li><a href="dojo.actions.html#dojo.actions.uniswapV3.UniswapV3ProvideLiquidity">(class in dojo.actions.uniswapV3)</a>
+</li>
+        </ul></li>
+        <li><a href="dojo.actions.html#dojo.actions.UniswapV3ProvideQuantities">UniswapV3ProvideQuantities (class in dojo.actions)</a>
+
+        <ul>
+          <li><a href="dojo.actions.html#dojo.actions.uniswapV3.UniswapV3ProvideQuantities">(class in dojo.actions.uniswapV3)</a>
+</li>
+        </ul></li>
+        <li><a href="dojo.actions.html#dojo.actions.UniswapV3Quote">UniswapV3Quote (class in dojo.actions)</a>
+
+        <ul>
+          <li><a href="dojo.actions.html#dojo.actions.uniswapV3.UniswapV3Quote">(class in dojo.actions.uniswapV3)</a>
+</li>
+        </ul></li>
+    </ul></td>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="dojo.actions.html#dojo.actions.UniswapV3SetFeeProtocol">UniswapV3SetFeeProtocol (class in dojo.actions)</a>
+
+        <ul>
+          <li><a href="dojo.actions.html#dojo.actions.uniswapV3.UniswapV3SetFeeProtocol">(class in dojo.actions.uniswapV3)</a>
+</li>
+        </ul></li>
+        <li><a href="dojo.actions.html#dojo.actions.UniswapV3Trade">UniswapV3Trade (class in dojo.actions)</a>
+
+        <ul>
+          <li><a href="dojo.actions.html#dojo.actions.uniswapV3.UniswapV3Trade">(class in dojo.actions.uniswapV3)</a>
+</li>
+        </ul></li>
+        <li><a href="dojo.actions.html#dojo.actions.UniswapV3TradeToTickRange">UniswapV3TradeToTickRange (class in dojo.actions)</a>
+
+        <ul>
+          <li><a href="dojo.actions.html#dojo.actions.uniswapV3.UniswapV3TradeToTickRange">(class in dojo.actions.uniswapV3)</a>
+</li>
+        </ul></li>
+        <li><a href="dojo.actions.html#dojo.actions.UniswapV3WithdrawLiquidity">UniswapV3WithdrawLiquidity (class in dojo.actions)</a>
+
+        <ul>
+          <li><a href="dojo.actions.html#dojo.actions.uniswapV3.UniswapV3WithdrawLiquidity">(class in dojo.actions.uniswapV3)</a>
+</li>
+        </ul></li>
+        <li><a href="dojo.environments.html#dojo.environments.uniswapV3.UniswapV3Env.update_trading_volumes">update_trading_volumes() (dojo.environments.uniswapV3.UniswapV3Env method)</a>
+
+        <ul>
+          <li><a href="dojo.environments.html#dojo.environments.UniswapV3Env.update_trading_volumes">(dojo.environments.UniswapV3Env method)</a>
+</li>
+        </ul></li>
+        <li><a href="dojo.actions.html#dojo.actions.aaveV3.AAVEv3SetUserUseReserveAsCollateral.useAsCollateral">useAsCollateral (dojo.actions.aaveV3.AAVEv3SetUserUseReserveAsCollateral attribute)</a>
+</li>
+        <li><a href="dojo.actions.html#dojo.actions.aaveV3.AAVEv3Borrow.user">user (dojo.actions.aaveV3.AAVEv3Borrow attribute)</a>
+
+        <ul>
+          <li><a href="dojo.actions.html#dojo.actions.aaveV3.AAVEv3FullLiquidation.user">(dojo.actions.aaveV3.AAVEv3FullLiquidation attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.aaveV3.AAVEv3Liquidation.user">(dojo.actions.aaveV3.AAVEv3Liquidation attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.aaveV3.AAVEv3Repay.user">(dojo.actions.aaveV3.AAVEv3Repay attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.aaveV3.AAVEv3SetUserEMode.user">(dojo.actions.aaveV3.AAVEv3SetUserEMode attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.aaveV3.AAVEv3SetUserUseReserveAsCollateral.user">(dojo.actions.aaveV3.AAVEv3SetUserUseReserveAsCollateral attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.aaveV3.AAVEv3Withdraw.user">(dojo.actions.aaveV3.AAVEv3Withdraw attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.AAVEv3Borrow.user">(dojo.actions.AAVEv3Borrow attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.AAVEv3FullLiquidation.user">(dojo.actions.AAVEv3FullLiquidation attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.AAVEv3Liquidation.user">(dojo.actions.AAVEv3Liquidation attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.AAVEv3Repay.user">(dojo.actions.AAVEv3Repay attribute)</a>
+</li>
+          <li><a href="dojo.actions.html#dojo.actions.AAVEv3Withdraw.user">(dojo.actions.AAVEv3Withdraw attribute)</a>
+</li>
+        </ul></li>
+        <li><a href="dojo.observations.html#dojo.observations.aaveV3.UserAccountData">UserAccountData (class in dojo.observations.aaveV3)</a>
+</li>
+    </ul></td>
+  </tr></table>
+</section>
+
+<section id="V" class="genindex-section">
+  <h2>V</h2>
+  <table style="width: 100%" class="indextable genindextable"><tr>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="dojo.observations.html#dojo.observations.aaveV3.ReserveData.variable_borrow_index">variable_borrow_index (dojo.observations.aaveV3.ReserveData attribute)</a>
+</li>
+    </ul></td>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="dojo.observations.html#dojo.observations.aaveV3.ReserveData.variable_debt_token_address">variable_debt_token_address (dojo.observations.aaveV3.ReserveData attribute)</a>
+</li>
+    </ul></td>
+  </tr></table>
+</section>
+
+<section id="W" class="genindex-section">
+  <h2>W</h2>
+  <table style="width: 100%" class="indextable genindextable"><tr>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="dojo.agents.html#dojo.agents.base_agent.BaseAgent.wealth">wealth() (dojo.agents.base_agent.BaseAgent method)</a>
+
+        <ul>
+          <li><a href="dojo.agents.html#dojo.agents.BaseAgent.wealth">(dojo.agents.BaseAgent method)</a>
+</li>
+        </ul></li>
+    </ul></td>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="dojo.agents.html#dojo.agents.base_agent.BaseAgent.write_results">write_results (dojo.agents.base_agent.BaseAgent attribute)</a>
+</li>
+    </ul></td>
+  </tr></table>
+</section>
+
+
+        </article>
+      </div>
+      <footer>
+        
+        <div class="related-pages">
+          
+          
+        </div>
+        <div class="bottom-of-page">
+          <div class="left-details">
+            <div class="copyright">
+                Copyright &#169; 2024, Compass Labs
+            </div>
+            Made with <a href="https://www.sphinx-doc.org/">Sphinx</a> and <a class="muted-link" href="https://pradyunsg.me">@pradyunsg</a>'s
+            
+            <a href="https://github.com/pradyunsg/furo">Furo</a>
+            
+          </div>
+          <div class="right-details">
+            
+          </div>
+        </div>
+        
+      </footer>
+    </div>
+    <aside class="toc-drawer no-toc">
+      
+      
+      
+    </aside>
+  </div>
+</div><script src="_static/documentation_options.js?v=5929fcd5"></script>
+    <script src="_static/doctools.js?v=9a2dae69"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/scripts/furo.js?v=5fa4622c"></script>
+    </body>
+</html>

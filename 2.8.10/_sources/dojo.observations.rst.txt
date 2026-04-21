@@ -1,0 +1,28 @@
+dojo.observations package
+=========================
+
+.. automodule:: dojo.observations
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Submodules
+----------
+
+
+.. automodule:: dojo.observations.aaveV3
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: dojo.observations.base_observation
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: dojo.observations.uniswapV3
+   :members:
+   :undoc-members:
+   :show-inheritance:

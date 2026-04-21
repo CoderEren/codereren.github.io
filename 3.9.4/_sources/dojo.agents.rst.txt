@@ -1,0 +1,28 @@
+dojo.agents package
+===================
+
+.. automodule:: dojo.agents
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Submodules
+----------
+
+
+.. automodule:: dojo.agents.base_agent
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: dojo.agents.dummy_agent
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: dojo.agents.market_agent
+   :members:
+   :undoc-members:
+   :show-inheritance:

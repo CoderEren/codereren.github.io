@@ -1,0 +1,22 @@
+dojo.runners package
+====================
+
+.. automodule:: dojo.runners
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Submodules
+----------
+
+
+.. automodule:: dojo.runners.backtest_runner
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: dojo.runners.live_runner
+   :members:
+   :undoc-members:
+   :show-inheritance:
