@@ -1,0 +1,32 @@
+.. Dojo documentation master file, created by
+   sphinx-quickstart on Fri May  5 12:49:02 2023.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
+
+Welcome to Dojo's documentation!
+================================
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Contents:
+
+   dojo.rst
+   dojo.actions.rst
+   dojo.agents.rst
+   dojo.common.rst
+   dojo.dataloaders.rst
+   dojo.environments.rst
+   dojo.market_models.rst
+   dojo.money.rst
+   dojo.network.rst
+   dojo.observations.rst
+   dojo.runners.rst
+   dojo.policies.rst
+   dojo.vis.rst
+
+Indices and tables
+==================
+
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`

@@ -1,0 +1,16 @@
+dojo.policies package
+=====================
+
+.. automodule:: dojo.policies
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Submodules
+----------
+
+
+.. automodule:: dojo.policies.base_policy
+   :members:
+   :undoc-members:
+   :show-inheritance:

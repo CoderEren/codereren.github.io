@@ -1,0 +1,25 @@
+dojo package
+============
+
+.. automodule:: dojo
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Subpackages
+-----------
+
+.. toctree::
+   :maxdepth: 4
+
+   dojo.actions
+   dojo.agents
+   dojo.common
+   dojo.dataloaders
+   dojo.environments
+   dojo.market_models
+   dojo.money
+   dojo.observations
+   dojo.policies
+   dojo.runners
+   dojo.vis
